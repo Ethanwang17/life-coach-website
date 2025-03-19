@@ -27,10 +27,10 @@ export default function Home() {
 									</span>
 								</h1>
 								<p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-									Light-U_Life provides resources, training,
-									and support for ECE directors, teachers, and
-									families to create nurturing learning
-									environments.
+									New Horizons Life provides resources,
+									training, and support for ECE directors,
+									teachers, and families to create nurturing
+									learning environments.
 								</p>
 								<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 									<div className="rounded-md shadow">
@@ -372,8 +372,8 @@ export default function Home() {
 						Ready to enhance your ECE program?
 					</h2>
 					<p className="mt-4 text-lg leading-6 text-indigo-100">
-						Join the Light-U_Life community today and get access to
-						all our resources.
+						Join the New Horizons Life community today and get
+						access to all our resources.
 					</p>
 					<div className="mt-8 flex">
 						<div className="inline-flex rounded-md shadow">

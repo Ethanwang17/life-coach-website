@@ -4,6 +4,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Behavior from "./pages/Behavior";
 import NAEYC from "./pages/NAEYC";
+import Contact from "./pages/Contact";
+import Professional from "./pages/Professional";
+import Family from "./pages/Family";
 
 // Import CSS
 import "./App.css";
@@ -18,18 +21,12 @@ function App() {
 					{/* Placeholder routes for other pages */}
 					<Route
 						path="service/professional"
-						element={<ComingSoon title="Professional Services" />}
+						element={<Professional />}
 					/>
 					<Route path="service/behavior" element={<Behavior />} />
 					<Route path="service/naeyc" element={<NAEYC />} />
-					<Route
-						path="service/family"
-						element={<ComingSoon title="Family Resources" />}
-					/>
-					<Route
-						path="contact"
-						element={<ComingSoon title="Contact Us" />}
-					/>
+					<Route path="service/family" element={<Family />} />
+					<Route path="contact" element={<Contact />} />
 					<Route path="*" element={<NotFound />} />
 				</Route>
 			</Routes>

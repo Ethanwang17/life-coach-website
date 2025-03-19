@@ -18,6 +18,7 @@ const navigation = [
 			{name: "Family", href: "/service/family"},
 		],
 	},
+	{name: "Contact", href: "/contact", current: false},
 ];
 
 function classNames(...classes) {
@@ -66,7 +67,7 @@ export default function Navbar() {
 										to="/"
 										className="text-2xl font-bold text-primary"
 									>
-										Light-U_Life
+										New Horizons Life
 									</Link>
 								</div>
 								<div className="hidden sm:ml-6 sm:block">

@@ -3,10 +3,8 @@ import {Link} from "react-router-dom";
 const navigation = {
 	main: [
 		{name: "About", href: "/about"},
-		{name: "Class", href: "/class"},
 		{name: "Service", href: "#"},
-		{name: "Free Downloads", href: "/downloads"},
-		{name: "Membership", href: "/membership"},
+		{name: "Contact", href: "/contact"},
 	],
 	service: [
 		{name: "Professional", href: "/service/professional"},
@@ -76,7 +74,7 @@ export default function Footer() {
 							to="/"
 							className="text-2xl font-bold text-primary"
 						>
-							Light-U_Life
+							New Horizons Life
 						</Link>
 						<p className="text-gray-600 max-w-xs">
 							Empowering early childhood educators, directors, and
@@ -174,7 +172,7 @@ export default function Footer() {
 				</div>
 				<div className="mt-12 border-t border-gray-200 pt-8">
 					<p className="text-base text-gray-500">
-						&copy; {new Date().getFullYear()} Light-U_Life. All
+						&copy; {new Date().getFullYear()} New Horizons Life. All
 						rights reserved.
 					</p>
 				</div>

@@ -8,7 +8,7 @@ export default function About() {
 				<div className="container-custom">
 					<div className="max-w-2xl">
 						<h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-							About Light-U_Life
+							About New Horizons Life
 						</h2>
 						<p className="mt-6 text-lg leading-8 text-gray-600">
 							Empowering early childhood education professionals
@@ -35,12 +35,12 @@ export default function About() {
 								Our Mission
 							</h2>
 							<p className="mt-4 text-lg text-gray-500">
-								At Light-U_Life, we believe that every child
-								deserves the best start in life, and that begins
-								with quality early childhood education. Our
-								mission is to support and empower the educators,
-								directors, and families who shape these crucial
-								early years.
+								At New Horizons Life, we believe that every
+								child deserves the best start in life, and that
+								begins with quality early childhood education.
+								Our mission is to support and empower the
+								educators, directors, and families who shape
+								these crucial early years.
 							</p>
 							<p className="mt-4 text-lg text-gray-500">
 								We provide comprehensive resources, training,
@@ -71,8 +71,8 @@ export default function About() {
 							Our Values
 						</h2>
 						<p className="mt-4 text-lg leading-8 text-gray-600">
-							These core principles guide everything we do at
-							Light-U_Life.
+							These core principles guide everything we do at New
+							Horizons Life.
 						</p>
 					</div>
 					<div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -249,8 +249,8 @@ export default function About() {
 							Our Team
 						</h2>
 						<p className="mt-4 text-lg leading-8 text-gray-600">
-							Meet the passionate educators and experts behind
-							Light-U_Life.
+							Meet the passionate educators and experts behind New
+							Horizons Life.
 						</p>
 					</div>
 					<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -317,7 +317,7 @@ export default function About() {
 				<div className="container-custom py-16">
 					<div className="max-w-2xl mx-auto text-center">
 						<h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-							Join the Light-U_Life Community
+							Join the New Horizons Life Community
 						</h2>
 						<p className="mt-4 text-lg leading-8 text-indigo-100">
 							Connect with other ECE professionals, access
