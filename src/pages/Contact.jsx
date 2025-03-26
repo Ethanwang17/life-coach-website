@@ -40,15 +40,15 @@ export default function Contact() {
 	};
 
 	return (
-		<div className="bg-white">
+		<div className="bg-neutral-100">
 			{/* Hero section */}
-			<div className="bg-gray-50 py-24 sm:py-32">
+			<div className="bg-neutral-200 py-24 sm:py-32">
 				<div className="container-custom">
 					<div className="max-w-2xl">
-						<h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+						<h2 className="text-4xl font-bold tracking-tight text-dark sm:text-6xl">
 							Contact Our Child Care
 						</h2>
-						<p className="mt-6 text-lg leading-8 text-gray-600">
+						<p className="mt-6 text-lg leading-8 text-neutral-600">
 							We're committed to providing a nurturing and
 							educational environment for your children. Contact
 							us to learn more about enrollment, scheduling, or to
@@ -62,11 +62,11 @@ export default function Contact() {
 			<div className="bg-primary bg-opacity-10 py-16">
 				<div className="container-custom">
 					<div className="max-w-3xl mx-auto text-center">
-						<h2 className="text-3xl font-bold text-gray-900 mb-8">
+						<h2 className="text-3xl font-bold text-dark mb-8">
 							Child Care Hours
 						</h2>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-2xl mx-auto">
-							<div className="bg-white p-6 rounded-lg shadow-md">
+							<div className="bg-neutral-100 p-6 rounded-lg shadow-md">
 								<h3 className="text-xl font-semibold text-primary mb-4">
 									Weekday Hours
 								</h3>
@@ -103,7 +103,7 @@ export default function Contact() {
 									</li>
 								</ul>
 							</div>
-							<div className="bg-white p-6 rounded-lg shadow-md">
+							<div className="bg-neutral-100 p-6 rounded-lg shadow-md">
 								<h3 className="text-xl font-semibold text-primary mb-4">
 									Additional Information
 								</h3>
@@ -136,7 +136,7 @@ export default function Contact() {
 								</ul>
 							</div>
 						</div>
-						<p className="mt-8 text-gray-700">
+						<p className="mt-8 text-neutral-700">
 							We follow the local school district calendar for
 							holidays and closures.
 						</p>
@@ -150,38 +150,38 @@ export default function Contact() {
 					<div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
 						{/* Contact Information */}
 						<div className="lg:col-span-1">
-							<h2 className="text-2xl font-bold text-gray-900 mb-6">
+							<h2 className="text-2xl font-bold text-dark mb-6">
 								Get in Touch
 							</h2>
 
 							<div className="space-y-8">
 								<div>
-									<h3 className="text-lg font-medium text-gray-900">
+									<h3 className="text-lg font-medium text-dark">
 										Email
 									</h3>
-									<p className="mt-2 text-gray-600">
+									<p className="mt-2 text-neutral-600">
 										childcare@newhorizonslife.com
 									</p>
 								</div>
 
 								<div>
-									<h3 className="text-lg font-medium text-gray-900">
+									<h3 className="text-lg font-medium text-dark">
 										Phone
 									</h3>
-									<p className="mt-2 text-gray-600">
+									<p className="mt-2 text-neutral-600">
 										(555) 123-4567
 									</p>
-									<p className="mt-1 text-sm text-gray-500">
+									<p className="mt-1 text-sm text-neutral-500">
 										For emergencies after hours, please call
 										(555) 987-6543
 									</p>
 								</div>
 
 								<div>
-									<h3 className="text-lg font-medium text-gray-900">
+									<h3 className="text-lg font-medium text-dark">
 										Address
 									</h3>
-									<p className="mt-2 text-gray-600">
+									<p className="mt-2 text-neutral-600">
 										123 Sunshine Lane
 										<br />
 										Childcare City, ST 12345
@@ -189,13 +189,13 @@ export default function Contact() {
 								</div>
 
 								<div>
-									<h3 className="text-lg font-medium text-gray-900">
+									<h3 className="text-lg font-medium text-dark">
 										Social Media
 									</h3>
 									<div className="mt-2 flex space-x-4">
 										<a
 											href="#"
-											className="text-gray-600 hover:text-primary"
+											className="text-neutral-600 hover:text-primary"
 										>
 											<span className="sr-only">
 												Facebook
@@ -215,7 +215,7 @@ export default function Contact() {
 										</a>
 										<a
 											href="#"
-											className="text-gray-600 hover:text-primary"
+											className="text-neutral-600 hover:text-primary"
 										>
 											<span className="sr-only">
 												Instagram
@@ -240,7 +240,7 @@ export default function Contact() {
 
 						{/* Contact Form */}
 						<div className="lg:col-span-2">
-							<h2 className="text-2xl font-bold text-gray-900 mb-6">
+							<h2 className="text-2xl font-bold text-dark mb-6">
 								Enrollment Inquiry
 							</h2>
 
@@ -257,7 +257,7 @@ export default function Contact() {
 									<div>
 										<label
 											htmlFor="name"
-											className="block text-sm font-medium text-gray-700"
+											className="block text-sm font-medium text-neutral-700"
 										>
 											Parent/Guardian Name
 										</label>
@@ -268,14 +268,14 @@ export default function Contact() {
 											value={formData.name}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										/>
 									</div>
 
 									<div>
 										<label
 											htmlFor="email"
-											className="block text-sm font-medium text-gray-700"
+											className="block text-sm font-medium text-neutral-700"
 										>
 											Email
 										</label>
@@ -286,7 +286,7 @@ export default function Contact() {
 											value={formData.email}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										/>
 									</div>
 								</div>
@@ -295,7 +295,7 @@ export default function Contact() {
 									<div>
 										<label
 											htmlFor="phone"
-											className="block text-sm font-medium text-gray-700"
+											className="block text-sm font-medium text-neutral-700"
 										>
 											Phone
 										</label>
@@ -306,14 +306,14 @@ export default function Contact() {
 											value={formData.phone}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										/>
 									</div>
 
 									<div>
 										<label
 											htmlFor="subject"
-											className="block text-sm font-medium text-gray-700"
+											className="block text-sm font-medium text-neutral-700"
 										>
 											Child's Age
 										</label>
@@ -323,7 +323,7 @@ export default function Contact() {
 											value={formData.subject}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										>
 											<option value="">
 												Select age range
@@ -350,7 +350,7 @@ export default function Contact() {
 								<div>
 									<label
 										htmlFor="message"
-										className="block text-sm font-medium text-gray-700"
+										className="block text-sm font-medium text-neutral-700"
 									>
 										Additional Information (preferred
 										schedule, start date, etc.)
@@ -362,14 +362,14 @@ export default function Contact() {
 										value={formData.message}
 										onChange={handleChange}
 										required
-										className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+										className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 									></textarea>
 								</div>
 
 								<div>
 									<button
 										type="submit"
-										className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-primary hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+										className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
 									>
 										Submit Inquiry
 									</button>
@@ -381,15 +381,15 @@ export default function Contact() {
 			</div>
 
 			{/* Map Section */}
-			<div className="bg-gray-50 py-16 sm:py-24">
+			<div className="bg-neutral-200 py-16 sm:py-24">
 				<div className="container-custom">
-					<h2 className="text-2xl font-bold text-gray-900 mb-6">
+					<h2 className="text-2xl font-bold text-dark mb-6">
 						Our Location
 					</h2>
 					<div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-lg">
 						{/* Replace with actual map embed or image */}
-						<div className="bg-gray-300 w-full h-96 flex items-center justify-center">
-							<p className="text-gray-600 text-lg">
+						<div className="bg-neutral-300 w-full h-96 flex items-center justify-center">
+							<p className="text-neutral-600 text-lg">
 								Map will be displayed here
 							</p>
 							{/* You would typically add a Google Maps or other map provider iframe here */}
@@ -401,57 +401,63 @@ export default function Contact() {
 			{/* FAQ Section */}
 			<div className="py-16 sm:py-24">
 				<div className="container-custom">
-					<h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+					<h2 className="text-3xl font-bold text-dark mb-12 text-center">
 						Frequently Asked Questions
 					</h2>
 
 					<div className="max-w-3xl mx-auto space-y-8">
 						<div>
-							<h3 className="text-xl font-semibold text-gray-900">
-								What ages do you accept?
+							<h3 className="text-xl font-semibold text-dark">
+								Are your courses accepted for California ECE
+								permits?
 							</h3>
-							<p className="mt-2 text-gray-600">
-								We provide care for children from 6 weeks to 12
-								years old, with specialized programs for each
-								developmental stage.
+							<p className="mt-2 text-neutral-600">
+								Yes. Our college-credit courses through Gordon
+								College meet California ECE permit requirements.
 							</p>
 						</div>
 
 						<div>
-							<h3 className="text-xl font-semibold text-gray-900">
-								What is your staff-to-child ratio?
+							<h3 className="text-xl font-semibold text-dark">
+								Do you offer bilingual services?
 							</h3>
-							<p className="mt-2 text-gray-600">
-								We maintain low staff-to-child ratios to ensure
-								each child receives quality attention. Our
-								ratios meet or exceed state requirements: 1:4
-								for infants, 1:6 for toddlers, and 1:10 for
-								preschoolers.
+							<p className="mt-2 text-neutral-600">
+								Yes. All major services are offered in both
+								Mandarin and English.
 							</p>
 						</div>
 
 						<div>
-							<h3 className="text-xl font-semibold text-gray-900">
-								Do you provide meals?
+							<h3 className="text-xl font-semibold text-dark">
+								Can you support teenagers and older students?
 							</h3>
-							<p className="mt-2 text-gray-600">
-								Yes, we provide nutritious breakfast, lunch, and
-								afternoon snacks. Our meals follow USDA
-								guidelines and accommodate food allergies and
-								special dietary requirements.
+							<p className="mt-2 text-neutral-600">
+								Yes. We offer academic coaching, behavior
+								support, and college prep guidance for
+								adolescents and teens.
 							</p>
 						</div>
 
 						<div>
-							<h3 className="text-xl font-semibold text-gray-900">
-								What is your illness policy?
+							<h3 className="text-xl font-semibold text-dark">
+								Do you support preschools and institutions in
+								China?
 							</h3>
-							<p className="mt-2 text-gray-600">
-								For the health of all children, we ask that sick
-								children be kept home until they are
-								symptom-free for 24 hours without medication.
-								This includes fever, vomiting, diarrhea, or
-								contagious conditions.
+							<p className="mt-2 text-neutral-600">
+								Absolutely. We provide school design, curriculum
+								consulting, accreditation training, and
+								IPO-readiness support.
+							</p>
+						</div>
+
+						<div>
+							<h3 className="text-xl font-semibold text-dark">
+								Do you offer scholarships or payment plans?
+							</h3>
+							<p className="mt-2 text-neutral-600">
+								Yes. We offer sliding scale pricing, flexible
+								packages, and group rates to increase
+								accessibility.
 							</p>
 						</div>
 					</div>
