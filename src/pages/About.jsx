@@ -35,27 +35,31 @@ export default function About() {
 								Our Mission
 							</h2>
 							<p className="mt-4 text-lg text-gray-500">
-								At New Horizons Life, we believe that every
-								child deserves the best start in life, and that
-								begins with quality early childhood education.
-								Our mission is to support and empower the
-								educators, directors, and families who shape
-								these crucial early years.
+								To simplify education, eliminate barriers, and
+								deliver inclusive, high-quality learning
+								experiences that empower educators, support
+								families, and help children thrive—from birth
+								through college admission—across cultures and
+								continents.
+							</p>
+
+							<p className="mt-4 text-lg text-gray-500">
+								We believe every child deserves the opportunity
+								to thrive, and every educator deserves the
+								support to lead. We deliver personalized,
+								research-based services that are culturally
+								grounded, emotionally attuned, and globally
+								aligned.
 							</p>
 							<p className="mt-4 text-lg text-gray-500">
-								We provide comprehensive resources, training,
-								and a supportive community for early childhood
-								education professionals and families. By
-								bridging the gap between research and practice,
-								we help create environments where children can
-								develop to their full potential.
+								We help early childhood professionals achieve
+								their career dreams, and we help families
+								develop lifelong learning pathways for their
+								children.
 							</p>
 							<div className="mt-8">
-								<Link
-									to="/membership"
-									className="btn btn-primary"
-								>
-									Join Our Community
+								<Link to="/contact" className="btn btn-primary">
+									Contact Us
 								</Link>
 							</div>
 						</div>
@@ -94,13 +98,16 @@ export default function About() {
 								</svg>
 							</div>
 							<h3 className="text-xl font-semibold text-gray-900">
-								Child-Centered Approach
+								Equity
 							</h3>
 							<p className="mt-4 text-gray-500">
-								We put children's developmental needs at the
-								center of everything we do, recognizing that
-								each child is unique and deserves personalized
-								support.
+								We're committed to eliminating barriers by
+								creating inclusive learning environments where
+								every child has equal access to opportunities.
+								Our approaches recognize and address systemic
+								challenges while celebrating the unique
+								strengths each individual brings to the
+								community.
 							</p>
 						</div>
 						<div className="bg-white rounded-lg shadow-sm p-8">
@@ -121,12 +128,16 @@ export default function About() {
 								</svg>
 							</div>
 							<h3 className="text-xl font-semibold text-gray-900">
-								Evidence-Based Practice
+								Family-Centered
 							</h3>
 							<p className="mt-4 text-gray-500">
-								Our resources and recommendations are grounded
-								in the latest research and best practices in
-								early childhood education and development.
+								We recognize families as the first and most
+								important teachers in a child's life. Our
+								services honor diverse family structures and
+								cultural backgrounds, partnering with parents
+								and caregivers to develop personalized learning
+								pathways that extend from the classroom to the
+								home.
 							</p>
 						</div>
 						<div className="bg-white rounded-lg shadow-sm p-8">
@@ -147,13 +158,15 @@ export default function About() {
 								</svg>
 							</div>
 							<h3 className="text-xl font-semibold text-gray-900">
-								Community & Collaboration
+								Whole-Child Focus
 							</h3>
 							<p className="mt-4 text-gray-500">
-								We believe in the power of community and foster
-								collaboration between educators, directors, and
-								families to create cohesive learning
-								environments.
+								We approach education by nurturing all aspects
+								of development—cognitive, social, emotional, and
+								physical. By addressing the whole child, we
+								create emotionally attuned learning experiences
+								that build confidence, curiosity, and capability
+								from early childhood through adolescence.
 							</p>
 						</div>
 						<div className="bg-white rounded-lg shadow-sm p-8">
@@ -174,13 +187,15 @@ export default function About() {
 								</svg>
 							</div>
 							<h3 className="text-xl font-semibold text-gray-900">
-								Inclusivity & Diversity
+								Global Perspective
 							</h3>
 							<p className="mt-4 text-gray-500">
-								We embrace and celebrate diversity in all forms,
-								promoting inclusive practices that respect and
-								value every child and family's unique
-								background.
+								Our culturally grounded approach embraces
+								diverse perspectives from across continents. We
+								integrate global best practices while respecting
+								local contexts, preparing children to thrive in
+								an interconnected world while maintaining strong
+								cultural identities.
 							</p>
 						</div>
 						<div className="bg-white rounded-lg shadow-sm p-8">
@@ -201,13 +216,15 @@ export default function About() {
 								</svg>
 							</div>
 							<h3 className="text-xl font-semibold text-gray-900">
-								Continuous Growth
+								Excellence
 							</h3>
 							<p className="mt-4 text-gray-500">
-								We encourage lifelong learning and professional
-								development, providing resources that help
-								educators and families continually enhance their
-								skills.
+								We maintain the highest standards in everything
+								we do, from research-based methodologies to
+								personalized implementation. Our commitment to
+								excellence means continuous learning, rigorous
+								evaluation, and adaptable approaches that
+								consistently deliver measurable results.
 							</p>
 						</div>
 						<div className="bg-white rounded-lg shadow-sm p-8">
@@ -223,7 +240,7 @@ export default function About() {
 									<path
 										strokeLinecap="round"
 										strokeLinejoin="round"
-										d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+										d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.746 3.746 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
 									/>
 								</svg>
 							</div>
@@ -325,10 +342,10 @@ export default function About() {
 						</p>
 						<div className="mt-8 flex items-center justify-center gap-x-6">
 							<Link
-								to="/membership"
+								to="/contact"
 								className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-primary shadow-sm hover:bg-indigo-50"
 							>
-								Become a Member
+								Contact Us
 							</Link>
 							<Link
 								to="/contact"

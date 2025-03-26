@@ -36,14 +36,14 @@ export default function Navbar() {
 	};
 
 	return (
-		<Disclosure as="nav" className="bg-white shadow-sm relative z-40">
+		<Disclosure as="nav" className="bg-neutral-100 shadow-sm relative z-40">
 			{({open}) => (
 				<>
 					<div className="container-custom">
 						<div className="relative flex h-16 items-center justify-between">
 							<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 								{/* Mobile menu button*/}
-								<Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+								<Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-neutral-500 hover:bg-neutral-200 hover:text-neutral-700">
 									<span className="absolute -inset-0.5" />
 									<span className="sr-only">
 										Open main menu
@@ -115,7 +115,7 @@ export default function Navbar() {
 														leaveFrom="transform opacity-100 scale-100"
 														leaveTo="transform opacity-0 scale-95"
 													>
-														<Menu.Items className="absolute right-0 z-50 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+														<Menu.Items className="absolute right-0 z-50 mt-2 w-48 origin-top-right rounded-md bg-neutral-100 py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
 															{item.children.map(
 																(child) => (
 																	<Menu.Item
@@ -132,9 +132,9 @@ export default function Navbar() {
 																				}
 																				className={classNames(
 																					active
-																						? "bg-gray-100"
+																						? "bg-neutral-200"
 																						: "",
-																					"block px-4 py-2 text-sm text-gray-700"
+																					"block px-4 py-2 text-sm text-neutral-700"
 																				)}
 																			>
 																				{
@@ -167,14 +167,14 @@ export default function Navbar() {
 										key={item.name}
 										as={Link}
 										to={item.href}
-										className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary"
+										className="block rounded-md px-3 py-2 text-base font-medium text-neutral-700 hover:bg-neutral-200 hover:text-primary"
 									>
 										{item.name}
 									</Disclosure.Button>
 								) : (
 									<div key={item.name}>
 										<Disclosure.Button
-											className="flex w-full items-center justify-between rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary"
+											className="flex w-full items-center justify-between rounded-md px-3 py-2 text-base font-medium text-neutral-700 hover:bg-neutral-200 hover:text-primary"
 											onClick={() =>
 												toggleDropdown(item.name)
 											}
@@ -204,7 +204,7 @@ export default function Navbar() {
 														key={child.name}
 														as={Link}
 														to={child.href}
-														className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-primary"
+														className="block rounded-md px-3 py-2 text-base font-medium text-neutral-500 hover:bg-neutral-200 hover:text-primary"
 													>
 														{child.name}
 													</Disclosure.Button>

@@ -46,7 +46,7 @@
 	}
 
 	.nav-link {
-		@apply text-gray-700 hover:text-primary transition-colors;
+		@apply text-neutral-700 hover:text-primary transition-colors;
 	}
 
 	.nav-link.active {

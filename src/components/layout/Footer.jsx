@@ -66,7 +66,7 @@ const navigation = {
 
 export default function Footer() {
 	return (
-		<footer className="bg-white">
+		<footer className="bg-neutral-100">
 			<div className="container-custom py-12 md:py-16">
 				<div className="xl:grid xl:grid-cols-3 xl:gap-8">
 					<div className="space-y-8 xl:col-span-1">
@@ -76,7 +76,7 @@ export default function Footer() {
 						>
 							New Horizons Life
 						</Link>
-						<p className="text-gray-600 max-w-xs">
+						<p className="text-neutral-600 max-w-xs">
 							Empowering early childhood educators, directors, and
 							families to create nurturing learning environments.
 						</p>
@@ -85,7 +85,7 @@ export default function Footer() {
 								<a
 									key={item.name}
 									href={item.href}
-									className="text-gray-500 hover:text-primary"
+									className="text-neutral-500 hover:text-primary"
 								>
 									<span className="sr-only">{item.name}</span>
 									<item.icon
@@ -100,7 +100,7 @@ export default function Footer() {
 					<div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
 						<div className="md:grid md:grid-cols-2 md:gap-8">
 							<div>
-								<h3 className="text-sm font-semibold text-gray-900">
+								<h3 className="text-sm font-semibold text-dark">
 									Navigation
 								</h3>
 								<ul role="list" className="mt-4 space-y-4">
@@ -108,7 +108,7 @@ export default function Footer() {
 										<li key={item.name}>
 											<Link
 												to={item.href}
-												className="text-gray-600 hover:text-primary"
+												className="text-neutral-600 hover:text-primary"
 											>
 												{item.name}
 											</Link>
@@ -117,7 +117,7 @@ export default function Footer() {
 								</ul>
 							</div>
 							<div className="mt-10 md:mt-0">
-								<h3 className="text-sm font-semibold text-gray-900">
+								<h3 className="text-sm font-semibold text-dark">
 									Services
 								</h3>
 								<ul role="list" className="mt-4 space-y-4">
@@ -125,7 +125,7 @@ export default function Footer() {
 										<li key={item.name}>
 											<Link
 												to={item.href}
-												className="text-gray-600 hover:text-primary"
+												className="text-neutral-600 hover:text-primary"
 											>
 												{item.name}
 											</Link>
@@ -135,10 +135,10 @@ export default function Footer() {
 							</div>
 						</div>
 						<div>
-							<h3 className="text-sm font-semibold text-gray-900">
+							<h3 className="text-sm font-semibold text-dark">
 								Subscribe to our newsletter
 							</h3>
-							<p className="mt-4 text-gray-600">
+							<p className="mt-4 text-neutral-600">
 								Get the latest updates, resources, and
 								educational content delivered to your inbox.
 							</p>
@@ -155,7 +155,7 @@ export default function Footer() {
 									id="email-address"
 									autoComplete="email"
 									required
-									className="w-full min-w-0 appearance-none rounded-md border border-gray-300 bg-white px-4 py-2 text-base text-gray-900 placeholder-gray-500 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+									className="w-full min-w-0 appearance-none rounded-md border border-neutral-300 bg-neutral-100 px-4 py-2 text-base text-dark placeholder-neutral-500 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
 									placeholder="Enter your email"
 								/>
 								<div className="mt-3 rounded-md sm:ml-3 sm:mt-0 sm:flex-shrink-0">
@@ -170,8 +170,8 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="mt-12 border-t border-gray-200 pt-8">
-					<p className="text-base text-gray-500">
+				<div className="mt-12 border-t border-neutral-200 pt-8">
+					<p className="text-base text-neutral-500">
 						&copy; {new Date().getFullYear()} New Horizons Life. All
 						rights reserved.
 					</p>

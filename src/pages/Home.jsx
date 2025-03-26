@@ -4,11 +4,11 @@ export default function Home() {
 	return (
 		<div>
 			{/* Hero Section */}
-			<div className="relative bg-white overflow-hidden">
+			<div className="relative bg-neutral-100 overflow-hidden">
 				<div className="max-w-7xl mx-auto">
-					<div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+					<div className="relative z-10 pb-8 bg-neutral-100 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 						<svg
-							className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+							className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-neutral-100 transform translate-x-1/2"
 							fill="currentColor"
 							viewBox="0 0 100 100"
 							preserveAspectRatio="none"
@@ -18,7 +18,7 @@ export default function Home() {
 						</svg>
 						<div className="container-custom pt-10 sm:pt-16 lg:pt-8 lg:pb-14">
 							<div className="sm:text-center lg:text-left">
-								<h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+								<h1 className="text-4xl tracking-tight font-extrabold text-dark sm:text-5xl md:text-6xl">
 									<span className="block">
 										Empowering Early
 									</span>
@@ -26,7 +26,7 @@ export default function Home() {
 										Childhood Education
 									</span>
 								</h1>
-								<p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+								<p className="mt-3 text-base text-neutral-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
 									New Horizons Life provides resources,
 									training, and support for ECE directors,
 									teachers, and families to create nurturing
@@ -35,16 +35,16 @@ export default function Home() {
 								<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 									<div className="rounded-md shadow">
 										<Link
-											to="/membership"
+											to="/contact"
 											className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 md:py-4 md:text-lg md:px-10"
 										>
-											Join Membership
+											Contact Us
 										</Link>
 									</div>
 									<div className="mt-3 sm:mt-0 sm:ml-3">
 										<Link
 											to="/about"
-											className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+											className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
 										>
 											Learn More
 										</Link>
@@ -64,16 +64,16 @@ export default function Home() {
 			</div>
 
 			{/* Features Section */}
-			<div className="py-12 bg-white">
+			<div className="py-12 bg-neutral-100">
 				<div className="container-custom">
 					<div className="lg:text-center">
 						<h2 className="text-base text-primary font-semibold tracking-wide uppercase">
 							Features
 						</h2>
-						<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+						<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-dark sm:text-4xl">
 							Comprehensive Resources for ECE Professionals
 						</p>
-						<p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+						<p className="mt-4 max-w-2xl text-xl text-neutral-500 lg:mx-auto">
 							Everything you need to excel in early childhood
 							education, all in one place.
 						</p>
@@ -101,10 +101,10 @@ export default function Home() {
 									</div>
 								</div>
 								<div className="ml-4">
-									<h3 className="text-lg leading-6 font-medium text-gray-900">
+									<h3 className="text-lg leading-6 font-medium text-dark">
 										Exclusive Content
 									</h3>
-									<p className="mt-2 text-base text-gray-500">
+									<p className="mt-2 text-base text-neutral-500">
 										Access webinars, toolkits, and community
 										discussions designed for early childhood
 										professionals.
@@ -132,10 +132,10 @@ export default function Home() {
 									</div>
 								</div>
 								<div className="ml-4">
-									<h3 className="text-lg leading-6 font-medium text-gray-900">
+									<h3 className="text-lg leading-6 font-medium text-dark">
 										Resource Library
 									</h3>
-									<p className="mt-2 text-base text-gray-500">
+									<p className="mt-2 text-base text-neutral-500">
 										Downloadable materials for lesson
 										planning, classroom management, and
 										professional development.
@@ -163,10 +163,10 @@ export default function Home() {
 									</div>
 								</div>
 								<div className="ml-4">
-									<h3 className="text-lg leading-6 font-medium text-gray-900">
+									<h3 className="text-lg leading-6 font-medium text-dark">
 										Community Forum
 									</h3>
-									<p className="mt-2 text-base text-gray-500">
+									<p className="mt-2 text-base text-neutral-500">
 										Connect with peers, share experiences,
 										and get answers to your questions from
 										other educators.
@@ -194,10 +194,10 @@ export default function Home() {
 									</div>
 								</div>
 								<div className="ml-4">
-									<h3 className="text-lg leading-6 font-medium text-gray-900">
+									<h3 className="text-lg leading-6 font-medium text-dark">
 										Professional Development
 									</h3>
-									<p className="mt-2 text-base text-gray-500">
+									<p className="mt-2 text-base text-neutral-500">
 										Enhance your skills and stay updated
 										with the latest trends and best
 										practices in early childhood education.
@@ -210,13 +210,13 @@ export default function Home() {
 			</div>
 
 			{/* For Audience Sections */}
-			<div className="bg-gray-50 py-16">
+			<div className="bg-neutral-200 py-16">
 				<div className="container-custom">
 					<div className="text-center">
-						<h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+						<h2 className="text-3xl font-extrabold text-dark sm:text-4xl">
 							Tailored Content for Every Role
 						</h2>
-						<p className="mt-4 text-lg text-gray-500">
+						<p className="mt-4 text-lg text-neutral-500">
 							Resources specifically designed for the unique needs
 							of different early childhood education stakeholders.
 						</p>
@@ -224,12 +224,12 @@ export default function Home() {
 
 					<div className="mt-12 space-y-8 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
 						{/* For Directors */}
-						<div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+						<div className="relative p-8 bg-neutral-100 border border-neutral-200 rounded-2xl shadow-sm flex flex-col">
 							<div className="flex-1">
-								<h3 className="text-xl font-semibold text-gray-900">
+								<h3 className="text-xl font-semibold text-dark">
 									For ECE Directors
 								</h3>
-								<p className="mt-4 text-gray-500">
+								<p className="mt-4 text-neutral-500">
 									Leadership strategies, staff training
 									resources, compliance updates, and best
 									practices for managing early childhood
@@ -263,20 +263,20 @@ export default function Home() {
 								</ul>
 							</div>
 							<Link
-								to="/service/professional"
-								className="mt-8 block w-full bg-gray-50 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-gray-100"
+								to="/contact"
+								className="mt-8 block w-full bg-neutral-200 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-neutral-300"
 							>
-								Learn More
+								Contact Us
 							</Link>
 						</div>
 
 						{/* For Teachers */}
-						<div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+						<div className="relative p-8 bg-neutral-100 border border-neutral-200 rounded-2xl shadow-sm flex flex-col">
 							<div className="flex-1">
-								<h3 className="text-xl font-semibold text-gray-900">
+								<h3 className="text-xl font-semibold text-dark">
 									For Teachers
 								</h3>
-								<p className="mt-4 text-gray-500">
+								<p className="mt-4 text-neutral-500">
 									Lesson plans, classroom management tips,
 									child development insights, and professional
 									development opportunities.
@@ -310,19 +310,19 @@ export default function Home() {
 							</div>
 							<Link
 								to="/class"
-								className="mt-8 block w-full bg-gray-50 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-gray-100"
+								className="mt-8 block w-full bg-neutral-200 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-neutral-300"
 							>
 								Learn More
 							</Link>
 						</div>
 
 						{/* For Families */}
-						<div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+						<div className="relative p-8 bg-neutral-100 border border-neutral-200 rounded-2xl shadow-sm flex flex-col">
 							<div className="flex-1">
-								<h3 className="text-xl font-semibold text-gray-900">
+								<h3 className="text-xl font-semibold text-dark">
 									For Families
 								</h3>
-								<p className="mt-4 text-gray-500">
+								<p className="mt-4 text-neutral-500">
 									Parenting guides, relationship-building
 									activities, and resources for supporting
 									children's early learning at home.
@@ -356,7 +356,7 @@ export default function Home() {
 							</div>
 							<Link
 								to="/service/family"
-								className="mt-8 block w-full bg-gray-50 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-gray-100"
+								className="mt-8 block w-full bg-neutral-200 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-neutral-300"
 							>
 								Learn More
 							</Link>
@@ -371,25 +371,25 @@ export default function Home() {
 					<h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
 						Ready to enhance your ECE program?
 					</h2>
-					<p className="mt-4 text-lg leading-6 text-indigo-100">
+					<p className="mt-4 text-lg leading-6 text-blue-100">
 						Join the New Horizons Life community today and get
 						access to all our resources.
 					</p>
 					<div className="mt-8 flex">
 						<div className="inline-flex rounded-md shadow">
 							<Link
-								to="/membership"
-								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-indigo-50"
+								to="/contact"
+								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-neutral-100 hover:bg-neutral-200"
 							>
-								Join Membership
+								Contact Us
 							</Link>
 						</div>
 						<div className="ml-3 inline-flex">
 							<Link
-								to="/downloads"
-								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+								to="/contact"
+								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-secondary hover:bg-secondary/90"
 							>
-								Free Downloads
+								Get in Touch
 							</Link>
 						</div>
 					</div>
