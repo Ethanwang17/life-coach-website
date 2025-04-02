@@ -210,7 +210,7 @@ export default function Home() {
 			</div>
 
 			{/* For Audience Sections */}
-			<div className="bg-neutral-200 py-16">
+			<div className="bg-neutral-100 py-16">
 				<div className="container-custom">
 					<div className="text-center">
 						<h2 className="text-3xl font-extrabold text-dark sm:text-4xl">
@@ -496,6 +496,149 @@ export default function Home() {
 									partner
 								</p>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Testimonials Section */}
+			<div className="py-16 bg-neutral-100">
+				<div className="container-custom">
+					<h2 className="text-3xl font-extrabold text-center text-dark sm:text-4xl mb-12">
+						Testimonials and Success Stories
+					</h2>
+					<div className="grid md:grid-cols-3 gap-8">
+						<div className="bg-white rounded-lg shadow-md p-8">
+							<div className="flex items-center mb-4">
+								<div className="text-yellow-400 flex">
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+								</div>
+							</div>
+							<p className="text-gray-700 italic mb-4">
+								"Dr. Luo and her team helped my child gain
+								confidence and earn admission to their dream
+								college. They cared for us like family."
+							</p>
+							<p className="font-medium text-gray-900">
+								- S.L., Parent, San Francisco
+							</p>
+						</div>
+						<div className="bg-white rounded-lg shadow-md p-8">
+							<div className="flex items-center mb-4">
+								<div className="text-yellow-400 flex">
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+								</div>
+							</div>
+							<p className="text-gray-700 italic mb-4">
+								"Thanks to ABC Education, our preschool reached
+								NAEYC standards and built a bridge to meaningful
+								U.S. partnerships."
+							</p>
+							<p className="font-medium text-gray-900">
+								- Director J.W., Shanghai
+							</p>
+						</div>
+						<div className="bg-white rounded-lg shadow-md p-8">
+							<div className="flex items-center mb-4">
+								<div className="text-yellow-400 flex">
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+									<svg
+										className="w-5 h-5 fill-current"
+										viewBox="0 0 24 24"
+									>
+										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+									</svg>
+								</div>
+							</div>
+							<p className="text-gray-700 italic mb-4">
+								"I never imagined becoming a national award
+								recipient. ABC Education changed my life and
+								helped me find my calling."
+							</p>
+							<p className="font-medium text-gray-900">
+								- Y.Z., Award-Winning Teacher
+							</p>
 						</div>
 					</div>
 				</div>

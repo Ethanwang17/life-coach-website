@@ -12,33 +12,34 @@ export default function Family() {
 							Family Services
 						</h1>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							Professional childcare services tailored to your
-							family's needs
+							Comprehensive support for families and children from
+							birth to adulthood
 						</p>
 					</div>
 				</div>
 			</div>
 
-			{/* About Childcare Section */}
+			{/* About Family Services Section */}
 			<div className="py-16 bg-white">
 				<div className="container-custom">
 					<div className="grid md:grid-cols-2 gap-12 items-center">
 						<div>
 							<h2 className="text-3xl font-bold text-gray-900 mb-6">
-								About Our Childcare Services
+								About Our Family Services
 							</h2>
 							<p className="text-lg text-gray-700 mb-6">
-								We provide high-quality, developmentally
-								appropriate childcare services designed to
-								nurture your child's growth while providing you
-								with peace of mind.
+								We provide comprehensive family support services
+								designed to nurture your child's growth and
+								development while empowering parents through
+								every life stage and transition.
 							</p>
 							<p className="text-lg text-gray-700 mb-6">
-								With over 30 years of experience in early
-								childhood education, our approach combines
-								play-based learning with individualized
-								attention to meet each child's unique needs and
-								interests.
+								Our expert consultants work with families to
+								create personalized plans that address
+								educational needs, family dynamics, and cultural
+								considerations. Services are available in
+								English and Mandarin with sliding scale pricing
+								and custom packages.
 							</p>
 							<Link
 								to="/contact"
@@ -49,7 +50,7 @@ export default function Family() {
 						</div>
 						<div className="bg-gray-100 rounded-lg p-8 shadow-md">
 							<h3 className="text-2xl font-bold text-primary mb-4">
-								Why Choose Our Childcare
+								Why Choose Our Family Services
 							</h3>
 							<ul className="space-y-3">
 								<li className="flex items-start">
@@ -67,8 +68,8 @@ export default function Family() {
 										/>
 									</svg>
 									<span>
-										Child-centered approach focused on
-										developmental needs
+										Personalized approach tailored to your
+										family's unique needs
 									</span>
 								</li>
 								<li className="flex items-start">
@@ -86,8 +87,8 @@ export default function Family() {
 										/>
 									</svg>
 									<span>
-										Expert-designed activities that promote
-										learning through play
+										Bilingual services in English and
+										Mandarin
 									</span>
 								</li>
 								<li className="flex items-start">
@@ -105,8 +106,8 @@ export default function Family() {
 										/>
 									</svg>
 									<span>
-										Flexible scheduling to accommodate your
-										family's needs
+										Flexible scheduling and affordable
+										pricing options
 									</span>
 								</li>
 								<li className="flex items-start">
@@ -124,8 +125,8 @@ export default function Family() {
 										/>
 									</svg>
 									<span>
-										Regular communication and updates about
-										your child's progress
+										Expert support for immigrant families
+										adapting to U.S. education
 									</span>
 								</li>
 							</ul>
@@ -138,16 +139,16 @@ export default function Family() {
 			<div className="py-16 bg-gray-50">
 				<div className="container-custom">
 					<h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-						Our Childcare Services
+						Our Family Services
 					</h2>
 					<div className="grid md:grid-cols-3 gap-8">
 						<div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary">
 							<h3 className="text-2xl font-bold text-gray-900 mb-4">
-								Regular Childcare
+								Personalized Education Service Plans
 							</h3>
 							<p className="text-gray-700 mb-6">
-								Consistent, reliable care for your child on a
-								regular schedule.
+								Comprehensive educational planning and support
+								for children from birth to 18 years.
 							</p>
 							<ul className="space-y-2 mb-6">
 								<li className="flex items-start">
@@ -164,7 +165,9 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Full-day and half-day options</span>
+									<span>
+										Developmental milestone tracking
+									</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -180,7 +183,7 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Structured daily routines</span>
+									<span>Educational goal setting</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -196,17 +199,17 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Educational activities and play</span>
+									<span>Resource coordination</span>
 								</li>
 							</ul>
 						</div>
 						<div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary">
 							<h3 className="text-2xl font-bold text-gray-900 mb-4">
-								Occasional Care
+								Teen Career & Academic Planning
 							</h3>
 							<p className="text-gray-700 mb-6">
-								Flexible childcare for when you need it the
-								most.
+								Helping teens navigate their educational and
+								career journeys with confidence.
 							</p>
 							<ul className="space-y-2 mb-6">
 								<li className="flex items-start">
@@ -223,7 +226,9 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Last-minute availability</span>
+									<span>
+										Interest and aptitude assessment
+									</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -239,7 +244,7 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Evening and weekend options</span>
+									<span>College application support</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -255,17 +260,17 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Pay-as-you-go flexibility</span>
+									<span>Future planning strategies</span>
 								</li>
 							</ul>
 						</div>
 						<div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary">
 							<h3 className="text-2xl font-bold text-gray-900 mb-4">
-								Specialized Care
+								Family Coaching
 							</h3>
 							<p className="text-gray-700 mb-6">
-								Tailored support for children with specific
-								needs or interests.
+								Supporting families through major life
+								transitions with expert guidance.
 							</p>
 							<ul className="space-y-2 mb-6">
 								<li className="flex items-start">
@@ -282,7 +287,7 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Special needs support</span>
+									<span>Expecting and new parents</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -298,7 +303,7 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Enrichment activities</span>
+									<span>Transitioning families</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -314,9 +319,145 @@ export default function Family() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Individualized care plans</span>
+									<span>Immigrant family support</span>
 								</li>
 							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Immigrant Family Support Section */}
+			<div className="py-16 bg-white">
+				<div className="container-custom">
+					<div className="grid md:grid-cols-2 gap-12 items-center">
+						<div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-8 shadow-md">
+							<h3 className="text-2xl font-bold text-primary mb-6">
+								Immigrant Family Support
+							</h3>
+							<p className="text-gray-700 mb-6">
+								We provide specialized services for immigrant
+								families navigating the U.S. educational system.
+							</p>
+							<ul className="space-y-4">
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>
+										Understanding the U.S. education system
+									</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>Cultural adaptation strategies</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>
+										Bilingual services in English and
+										Mandarin
+									</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>
+										School advocacy and partnership building
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h2 className="text-3xl font-bold text-gray-900 mb-6">
+								Pricing & Availability
+							</h2>
+							<p className="text-lg text-gray-700 mb-6">
+								We believe in making quality family services
+								accessible to all. Our pricing is flexible and
+								based on your family's specific needs.
+							</p>
+							<div className="grid grid-cols-1 gap-4 mb-6">
+								<div className="bg-primary/10 p-6 rounded-lg">
+									<h4 className="font-semibold text-primary text-xl mb-2">
+										Flexible Pricing Options
+									</h4>
+									<ul className="space-y-1">
+										<li>
+											• Sliding scale pricing available
+										</li>
+										<li>
+											• Custom packages for comprehensive
+											needs
+										</li>
+										<li>• Single session options</li>
+										<li>• Monthly support plans</li>
+									</ul>
+								</div>
+								<div className="bg-primary/10 p-6 rounded-lg">
+									<h4 className="font-semibold text-primary text-xl mb-2">
+										Languages Offered
+									</h4>
+									<p className="mb-2">
+										All services available in:
+									</p>
+									<ul className="space-y-1">
+										<li>• English</li>
+										<li>• Mandarin</li>
+									</ul>
+								</div>
+							</div>
+							<Link
+								to="/contact"
+								className="btn btn-primary inline-block mt-4"
+							>
+								Request Pricing Information
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -328,7 +469,7 @@ export default function Family() {
 					<div className="grid md:grid-cols-2 gap-12 items-center">
 						<div className="bg-gray-100 rounded-lg p-8 shadow-md">
 							<h3 className="text-2xl font-bold text-primary mb-6">
-								Our Booking Process
+								Our Consultation Process
 							</h3>
 							<ul className="space-y-4">
 								<li className="flex items-start">
@@ -340,9 +481,9 @@ export default function Family() {
 											Initial Consultation
 										</h4>
 										<p className="text-sm text-gray-700">
-											We'll discuss your childcare needs,
-											your child's interests, and any
-											special requirements.
+											We'll discuss your family's needs,
+											goals, and any specific challenges
+											you're facing.
 										</p>
 									</div>
 								</li>
@@ -352,12 +493,12 @@ export default function Family() {
 									</div>
 									<div>
 										<h4 className="font-semibold text-gray-900">
-											Matching & Planning
+											Personalized Plan Development
 										</h4>
 										<p className="text-sm text-gray-700">
-											We'll create a personalized care
-											plan and schedule that works for
-											your family.
+											We'll create a customized service
+											plan based on your unique family
+											situation and goals.
 										</p>
 									</div>
 								</li>
@@ -367,12 +508,12 @@ export default function Family() {
 									</div>
 									<div>
 										<h4 className="font-semibold text-gray-900">
-											Introduction Meeting
+											Implementation & Support
 										</h4>
 										<p className="text-sm text-gray-700">
-											Your child will meet their caregiver
-											in a comfortable setting to build
-											rapport.
+											We'll guide you through implementing
+											strategies and provide ongoing
+											support as needed.
 										</p>
 									</div>
 								</li>
@@ -382,12 +523,12 @@ export default function Family() {
 									</div>
 									<div>
 										<h4 className="font-semibold text-gray-900">
-											Begin Services
+											Progress Review & Adjustments
 										</h4>
 										<p className="text-sm text-gray-700">
-											Childcare services begin with
-											regular check-ins to ensure
-											satisfaction.
+											Regular check-ins to evaluate
+											progress and make adjustments to
+											your plan as needed.
 										</p>
 									</div>
 								</li>
@@ -395,195 +536,49 @@ export default function Family() {
 						</div>
 						<div>
 							<h2 className="text-3xl font-bold text-gray-900 mb-6">
-								Rates & Availability
+								Who We Serve
 							</h2>
 							<p className="text-lg text-gray-700 mb-6">
-								Our childcare rates are competitive and based on
-								your specific needs. We offer various packages
-								to accommodate different schedules and
-								requirements.
+								Our family services are designed to support
+								families at all stages of their journey, with
+								specialized expertise in the following areas:
 							</p>
-							<div className="grid grid-cols-1 gap-4 mb-6">
-								<div className="bg-primary/10 p-6 rounded-lg">
-									<h4 className="font-semibold text-primary text-xl mb-2">
-										Regular Care Packages
+							<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+								<div className="bg-primary/10 p-4 rounded-lg">
+									<h4 className="font-semibold text-primary">
+										Expecting & New Parents
 									</h4>
-									<p className="mb-2">
-										Starting at $25/hour with discounts for
-										regular bookings:
-									</p>
-									<ul className="space-y-1 text-sm">
-										<li>• 10+ hours/week: 10% discount</li>
-										<li>• 20+ hours/week: 15% discount</li>
-										<li>• 30+ hours/week: 20% discount</li>
-									</ul>
-								</div>
-								<div className="bg-primary/10 p-6 rounded-lg">
-									<h4 className="font-semibold text-primary text-xl mb-2">
-										Availability
-									</h4>
-									<ul className="space-y-1">
-										<li>• Weekdays: 7:00 AM - 7:00 PM</li>
-										<li>
-											• Weekends: Limited availability
-										</li>
-										<li>
-											• After-hours care available upon
-											request
-										</li>
-									</ul>
-									<p className="mt-2 text-sm font-medium">
-										Early booking is recommended for
-										consistent schedules.
+									<p className="text-sm">
+										Preparing for parenthood and early
+										childhood
 									</p>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			{/* Testimonials Section */}
-			<div className="py-16 bg-gray-50">
-				<div className="container-custom">
-					<h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-						What Families Say About Us
-					</h2>
-					<div className="grid md:grid-cols-3 gap-8">
-						<div className="bg-white rounded-lg shadow-md p-8">
-							<div className="flex items-center mb-4">
-								<div className="text-yellow-400 flex">
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
+								<div className="bg-primary/10 p-4 rounded-lg">
+									<h4 className="font-semibold text-primary">
+										School-Age Families
+									</h4>
+									<p className="text-sm">
+										Navigating K-12 education effectively
+									</p>
+								</div>
+								<div className="bg-primary/10 p-4 rounded-lg">
+									<h4 className="font-semibold text-primary">
+										Immigrant Families
+									</h4>
+									<p className="text-sm">
+										Adapting to U.S. educational systems
+									</p>
+								</div>
+								<div className="bg-primary/10 p-4 rounded-lg">
+									<h4 className="font-semibold text-primary">
+										Families with Teens
+									</h4>
+									<p className="text-sm">
+										Planning for college and career
+										transitions
+									</p>
 								</div>
 							</div>
-							<p className="text-gray-700 italic mb-4">
-								"The care our son receives is exceptional. The
-								activities are always engaging and educational,
-								and we've seen tremendous growth in his social
-								skills and confidence."
-							</p>
-							<p className="font-medium text-gray-900">
-								- Jessica T., Parent of a 4-year-old
-							</p>
-						</div>
-						<div className="bg-white rounded-lg shadow-md p-8">
-							<div className="flex items-center mb-4">
-								<div className="text-yellow-400 flex">
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-								</div>
-							</div>
-							<p className="text-gray-700 italic mb-4">
-								"As a working parent with an irregular schedule,
-								I've been impressed by the flexibility and
-								understanding. My daughter loves her caregiver
-								and is always excited to spend time with her."
-							</p>
-							<p className="font-medium text-gray-900">
-								- Michael R., Parent of a 6-year-old
-							</p>
-						</div>
-						<div className="bg-white rounded-lg shadow-md p-8">
-							<div className="flex items-center mb-4">
-								<div className="text-yellow-400 flex">
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-								</div>
-							</div>
-							<p className="text-gray-700 italic mb-4">
-								"Finding quality care for our child with special
-								needs was challenging until we found this
-								service. The personalized approach and expertise
-								have made all the difference in our lives."
-							</p>
-							<p className="font-medium text-gray-900">
-								- Sarah and David K., Parents of a 5-year-old
-							</p>
 						</div>
 					</div>
 				</div>
@@ -593,17 +588,18 @@ export default function Family() {
 			<div className="py-16 bg-gradient-to-r from-primary/10 to-secondary/10">
 				<div className="container-custom text-center">
 					<h2 className="text-3xl font-bold text-gray-900 mb-6">
-						Ready to Book Your Childcare Services?
+						Ready to Support Your Family's Success?
 					</h2>
 					<p className="text-xl text-gray-700 max-w-3xl mx-auto mb-8">
-						Contact us today to schedule a consultation and learn
-						more about how we can support your family.
+						Contact us today to schedule a consultation and discover
+						how our personalized family services can support your
+						family's unique journey.
 					</p>
 					<Link
 						to="/contact"
 						className="btn btn-primary inline-block px-8 py-3"
 					>
-						Book Now
+						Book a Consultation
 					</Link>
 				</div>
 			</div>

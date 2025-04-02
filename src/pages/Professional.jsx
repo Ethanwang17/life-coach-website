@@ -143,12 +143,11 @@ export default function Professional() {
 					<div className="grid md:grid-cols-3 gap-8">
 						<div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary">
 							<h3 className="text-2xl font-bold text-gray-900 mb-4">
-								Workshops & Training
+								Certified ECE Courses
 							</h3>
 							<p className="text-gray-700 mb-6">
-								Interactive sessions designed to build knowledge
-								and skills for culturally responsive teaching
-								practices.
+								College-credit early childhood education courses
+								offered online through Gordon College.
 							</p>
 							<ul className="space-y-2 mb-6">
 								<li className="flex items-start">
@@ -165,7 +164,7 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Anti-bias education</span>
+									<span>Permit eligibility</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -181,9 +180,7 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>
-										Inclusive classroom environments
-									</span>
+									<span>Professional growth</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -199,21 +196,17 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>
-										Culturally responsive teaching
-										strategies
-									</span>
+									<span>Salary advancement</span>
 								</li>
 							</ul>
 						</div>
 						<div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary">
 							<h3 className="text-2xl font-bold text-gray-900 mb-4">
-								Consultation Services
+								Bilingual Training
 							</h3>
 							<p className="text-gray-700 mb-6">
-								Personalized support for educational
-								institutions looking to enhance their cultural
-								competence.
+								Comprehensive training in multiple languages to
+								support diverse educational environments.
 							</p>
 							<ul className="space-y-2 mb-6">
 								<li className="flex items-start">
@@ -230,7 +223,7 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Environmental assessments</span>
+									<span>Curriculum design</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -246,7 +239,7 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Policy review and development</span>
+									<span>Classroom strategies</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -262,17 +255,33 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Curriculum adaptation guidance</span>
+									<span>STREAMS integration</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-5 w-5 text-primary mt-0.5 mr-2"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>Family engagement</span>
 								</li>
 							</ul>
 						</div>
 						<div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary">
 							<h3 className="text-2xl font-bold text-gray-900 mb-4">
-								Ongoing Coaching
+								Flexible Delivery Formats
 							</h3>
 							<p className="text-gray-700 mb-6">
-								Sustained support for educators implementing new
-								practices in their classrooms.
+								Multiple options to fit busy schedules with
+								group pricing available.
 							</p>
 							<ul className="space-y-2 mb-6">
 								<li className="flex items-start">
@@ -289,7 +298,7 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Observation and feedback</span>
+									<span>Live online sessions</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -305,7 +314,7 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Reflective practice sessions</span>
+									<span>Self-paced courses</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -321,12 +330,84 @@ export default function Professional() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>
-										Action planning and accountability
-									</span>
+									<span>In-person workshops</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-5 w-5 text-primary mt-0.5 mr-2"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>One-on-one coaching</span>
 								</li>
 							</ul>
 						</div>
+					</div>
+					<div className="bg-white rounded-lg shadow-md p-8 border-t-4 border-primary mt-8">
+						<h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+							Who Can Benefit
+						</h3>
+						<div className="grid md:grid-cols-4 gap-6 text-center">
+							<div className="bg-primary/10 p-4 rounded-lg">
+								<h4 className="font-semibold text-primary">
+									Teachers
+								</h4>
+								<p className="text-sm">
+									Early childhood educators at all levels
+								</p>
+							</div>
+							<div className="bg-primary/10 p-4 rounded-lg">
+								<h4 className="font-semibold text-primary">
+									Directors
+								</h4>
+								<p className="text-sm">
+									Program administrators and leaders
+								</p>
+							</div>
+							<div className="bg-primary/10 p-4 rounded-lg">
+								<h4 className="font-semibold text-primary">
+									Paraprofessionals
+								</h4>
+								<p className="text-sm">
+									Teaching assistants and support staff
+								</p>
+							</div>
+							<div className="bg-primary/10 p-4 rounded-lg">
+								<h4 className="font-semibold text-primary">
+									Aspiring Professionals
+								</h4>
+								<p className="text-sm">
+									Those entering the ECE field
+								</p>
+							</div>
+						</div>
+						<div className="text-center mt-8">
+							<h4 className="font-bold text-primary text-xl mb-4">
+								Professional Growth Benefits
+							</h4>
+							<p className="text-gray-700 mb-4">
+								Our professional development services support
+								career advancement, leadership development, and
+								educational excellence with flexible scheduling
+								options to meet your needs.
+							</p>
+						</div>
+					</div>
+					<div className="text-center mt-10">
+						<Link
+							to="/contact"
+							className="btn btn-primary inline-block"
+						>
+							Enquire About Training
+						</Link>
 					</div>
 				</div>
 			</div>

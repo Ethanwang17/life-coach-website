@@ -27,26 +27,26 @@ export default function NAEYC() {
 								About Our NAEYC Consulting
 							</h2>
 							<p className="text-lg text-gray-700 mb-6">
-								With over 30 years of experience with NAEYC, we
-								believe in their research-based approach to
-								early childhood education excellence.
+								We provide comprehensive support for U.S. and
+								international programs seeking NAEYC
+								accreditation or reaccreditation.
 							</p>
 							<p className="text-lg text-gray-700 mb-6">
-								Our consulting services can be individualized
+								With over 10 years of successful results with
+								preschools, centers, and bilingual institutions,
+								our consulting services can be individualized
 								for new programs starting the accreditation
 								process or for existing programs going through
-								reaccreditation. We provide comprehensive
-								support to ensure your program meets all NAEYC
-								standards and requirements.
+								reaccreditation.
 							</p>
 							<div className="bg-primary/10 rounded-lg p-6 border-l-4 border-primary mt-8">
 								<p className="text-2xl font-bold text-primary">
-									100% Success Rate
+									85%+ Success Rate
 								</p>
 								<p className="text-gray-700">
-									All programs that received our consultation
-									support successfully achieved NAEYC
-									accreditation.
+									Over 85% of programs that received our
+									consultation support successfully achieved
+									NAEYC accreditation within 18 months.
 								</p>
 							</div>
 							<Link
@@ -75,7 +75,7 @@ export default function NAEYC() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Review of program portfolios</span>
+									<span>Learning environment design</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -91,7 +91,39 @@ export default function NAEYC() {
 											d="M5 13l4 4L19 7"
 										/>
 									</svg>
-									<span>Review of classroom portfolios</span>
+									<span>Policy and documentation</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>Staff development and training</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>Parent engagement strategies</span>
 								</li>
 								<li className="flex items-start">
 									<svg
@@ -110,41 +142,6 @@ export default function NAEYC() {
 									<span>
 										Comprehensive classroom observations
 									</span>
-								</li>
-								<li className="flex items-start">
-									<svg
-										className="h-6 w-6 text-primary mt-0.5 mr-3"
-										fill="none"
-										viewBox="0 0 24 24"
-										stroke="currentColor"
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											strokeWidth="2"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>
-										Guidance on documentation and evidence
-										collection
-									</span>
-								</li>
-								<li className="flex items-start">
-									<svg
-										className="h-6 w-6 text-primary mt-0.5 mr-3"
-										fill="none"
-										viewBox="0 0 24 24"
-										stroke="currentColor"
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											strokeWidth="2"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Mock accreditation visits</span>
 								</li>
 							</ul>
 						</div>

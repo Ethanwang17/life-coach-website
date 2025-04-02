@@ -28,9 +28,9 @@ export default function Behavior() {
 								About Our Coaching
 							</h2>
 							<p className="text-lg text-gray-700 mb-6">
-								With over 30 years of experience working in the
-								field of early childhood education, our team has
-								developed effective strategies to support
+								With over many years of experience working in
+								the field of early childhood education, our team
+								has developed effective strategies to support
 								educators facing challenging behaviors in the
 								classroom.
 							</p>
@@ -341,6 +341,137 @@ export default function Behavior() {
 								className="btn btn-secondary inline-block"
 							>
 								Enquire Now
+							</Link>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Behavior Consultation Section */}
+			<div className="py-16 bg-white">
+				<div className="container-custom">
+					<h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+						Individual Behavior Consultation
+					</h2>
+					<div className="grid md:grid-cols-2 gap-12 items-center">
+						<div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-8 shadow-md">
+							<h3 className="text-2xl font-bold text-primary mb-6">
+								Personalized Support
+							</h3>
+							<ul className="space-y-4">
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>
+										Culturally responsive behavior coaching
+										for children and teens
+									</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>
+										Focus on emotional regulation, learning
+										transitions, and confidence building
+									</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>
+										Effective with immigrant families and
+										multilingual children
+									</span>
+								</li>
+								<li className="flex items-start">
+									<svg
+										className="h-6 w-6 text-primary mt-0.5 mr-3"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									<span>
+										Offered virtually or in-person depending
+										on client needs
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h3 className="text-2xl font-bold text-gray-900 mb-6">
+								Child-Centered Approach
+							</h3>
+							<p className="text-lg text-gray-700 mb-6">
+								Our behavior consultation services are designed
+								to meet the unique needs of each child and
+								family. We understand that cultural context
+								plays a vital role in behavior development and
+								management.
+							</p>
+							<p className="text-lg text-gray-700 mb-6">
+								Through individualized sessions, we work
+								directly with children, teens, and their
+								families to develop practical strategies for
+								emotional regulation, successful transitions,
+								and building confidence.
+							</p>
+							<div className="bg-primary/10 rounded-lg p-6 border-l-4 border-primary mt-8">
+								<p className="text-lg font-semibold text-primary">
+									Multilingual Support Available
+								</p>
+								<p className="text-gray-700">
+									Our consultants are specially trained to
+									work with immigrant families and
+									multilingual children, ensuring cultural
+									values and communication styles are
+									respected throughout the process.
+								</p>
+							</div>
+							<Link
+								to="/contact"
+								className="btn btn-primary inline-block mt-8"
+							>
+								Schedule a Consultation
 							</Link>
 						</div>
 					</div>

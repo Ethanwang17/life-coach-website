@@ -523,7 +523,7 @@ export default function About() {
 						<div className="flex flex-col items-center">
 							<img
 								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
-								src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+								src="./images/mary-jo-pullman-headshot.jpg"
 								alt="Team member"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
@@ -543,7 +543,7 @@ export default function About() {
 						<div className="flex flex-col items-center">
 							<img
 								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
-								src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80"
+								src="./images/dr-Myron-Belfer-headshot.jpg"
 								alt="Team member"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">

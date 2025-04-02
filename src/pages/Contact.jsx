@@ -40,33 +40,57 @@ export default function Contact() {
 	};
 
 	return (
-		<div className="bg-neutral-100">
+		<div className="bg-gradient-to-b from-neutral-50 to-neutral-100 overflow-hidden">
 			{/* Hero section */}
-			<div className="bg-neutral-200 py-24 sm:py-32">
-				<div className="container-custom">
+			<div className="bg-primary bg-opacity-5 py-24 sm:py-32 relative overflow-hidden">
+				<div className="absolute inset-0 z-0 opacity-20">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="100%"
+						height="100%"
+					>
+						<defs>
+							<pattern
+								id="pattern"
+								width="40"
+								height="40"
+								patternUnits="userSpaceOnUse"
+							>
+								<circle
+									cx="20"
+									cy="20"
+									r="1.5"
+									fill="currentColor"
+									className="text-primary"
+								/>
+							</pattern>
+						</defs>
+						<rect width="100%" height="100%" fill="url(#pattern)" />
+					</svg>
+				</div>
+				<div className="container-custom relative z-10 px-0 sm:px-6 lg:px-8">
 					<div className="max-w-2xl">
 						<h2 className="text-4xl font-bold tracking-tight text-dark sm:text-6xl">
-							Contact Our Child Care
+							Get in Touch
 						</h2>
 						<p className="mt-6 text-lg leading-8 text-neutral-600">
-							We're committed to providing a nurturing and
-							educational environment for your children. Contact
-							us to learn more about enrollment, scheduling, or to
-							arrange a visit.
+							We're here to help with any questions you may have.
+							Reach out to our team and we'll get back to you as
+							soon as possible.
 						</p>
 					</div>
 				</div>
 			</div>
 
-			{/* Operating Hours Section - Highlighted */}
-			<div className="bg-primary bg-opacity-10 py-16">
-				<div className="container-custom">
+			{/* Business Hours Section */}
+			<div className="py-16">
+				<div className="container-custom px-0 sm:px-6 lg:px-8">
 					<div className="max-w-3xl mx-auto text-center">
 						<h2 className="text-3xl font-bold text-dark mb-8">
-							Child Care Hours
+							Business Hours
 						</h2>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-2xl mx-auto">
-							<div className="bg-neutral-100 p-6 rounded-lg shadow-md">
+							<div className="bg-white p-6 rounded-xl shadow-sm border border-neutral-200 transition-all hover:shadow-md">
 								<h3 className="text-xl font-semibold text-primary mb-4">
 									Weekday Hours
 								</h3>
@@ -75,35 +99,35 @@ export default function Contact() {
 										<span className="font-medium">
 											Monday:
 										</span>
-										<span>7:30 AM - 6:00 PM</span>
+										<span>9:00 AM - 5:00 PM</span>
 									</li>
 									<li className="flex justify-between">
 										<span className="font-medium">
 											Tuesday:
 										</span>
-										<span>7:30 AM - 6:00 PM</span>
+										<span>9:00 AM - 5:00 PM</span>
 									</li>
 									<li className="flex justify-between">
 										<span className="font-medium">
 											Wednesday:
 										</span>
-										<span>7:30 AM - 6:00 PM</span>
+										<span>9:00 AM - 5:00 PM</span>
 									</li>
 									<li className="flex justify-between">
 										<span className="font-medium">
 											Thursday:
 										</span>
-										<span>7:30 AM - 6:00 PM</span>
+										<span>9:00 AM - 5:00 PM</span>
 									</li>
 									<li className="flex justify-between">
 										<span className="font-medium">
 											Friday:
 										</span>
-										<span>7:30 AM - 5:30 PM</span>
+										<span>9:00 AM - 4:00 PM</span>
 									</li>
 								</ul>
 							</div>
-							<div className="bg-neutral-100 p-6 rounded-lg shadow-md">
+							<div className="bg-white p-6 rounded-xl shadow-sm border border-neutral-200 transition-all hover:shadow-md">
 								<h3 className="text-xl font-semibold text-primary mb-4">
 									Additional Information
 								</h3>
@@ -118,90 +142,153 @@ export default function Contact() {
 									</li>
 									<li>
 										<span className="font-medium">
-											Early Drop-off:
+											Online Support:
 										</span>
 										<span className="block mt-1">
-											Available by arrangement
+											Available 24/7 through our help
+											center
 										</span>
 									</li>
 									<li>
 										<span className="font-medium">
-											Late Pick-up:
+											Appointments:
 										</span>
 										<span className="block mt-1">
-											Please call if you need extended
-											hours
+											Available outside business hours by
+											request
 										</span>
 									</li>
 								</ul>
 							</div>
 						</div>
 						<p className="mt-8 text-neutral-700">
-							We follow the local school district calendar for
-							holidays and closures.
+							We observe all national holidays. Please check our
+							social media for special announcements.
 						</p>
 					</div>
 				</div>
 			</div>
 
 			{/* Contact information section */}
-			<div className="py-16 sm:py-24">
-				<div className="container-custom">
+			<div className="py-16 sm:py-24 bg-white">
+				<div className="container-custom px-0 sm:px-6 lg:px-8">
 					<div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
 						{/* Contact Information */}
-						<div className="lg:col-span-1">
+						<div className="lg:col-span-1 bg-primary bg-opacity-5 p-8 rounded-xl">
 							<h2 className="text-2xl font-bold text-dark mb-6">
-								Get in Touch
+								Contact Details
 							</h2>
 
 							<div className="space-y-8">
-								<div>
-									<h3 className="text-lg font-medium text-dark">
-										Email
-									</h3>
-									<p className="mt-2 text-neutral-600">
-										childcare@newhorizonslife.com
-									</p>
+								<div className="flex items-start">
+									<div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
+										<svg
+											className="h-5 w-5 text-primary"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												strokeWidth={2}
+												d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+											/>
+										</svg>
+									</div>
+									<div>
+										<h3 className="text-lg font-medium text-dark">
+											Email
+										</h3>
+										<p className="mt-2 text-neutral-600">
+											contact@newhorizonslife.com
+										</p>
+									</div>
+								</div>
+
+								<div className="flex items-start">
+									<div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
+										<svg
+											className="h-5 w-5 text-primary"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												strokeWidth={2}
+												d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+											/>
+										</svg>
+									</div>
+									<div>
+										<h3 className="text-lg font-medium text-dark">
+											Phone
+										</h3>
+										<p className="mt-2 text-neutral-600">
+											(555) 123-4567
+										</p>
+										<p className="mt-1 text-sm text-neutral-500">
+											For urgent matters, please call
+											(555) 987-6543
+										</p>
+									</div>
+								</div>
+
+								<div className="flex items-start">
+									<div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
+										<svg
+											className="h-5 w-5 text-primary"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												strokeWidth={2}
+												d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+											/>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												strokeWidth={2}
+												d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+											/>
+										</svg>
+									</div>
+									<div>
+										<h3 className="text-lg font-medium text-dark">
+											Address
+										</h3>
+										<p className="mt-2 text-neutral-600">
+											123 Horizon Avenue
+											<br />
+											Suite 101
+											<br />
+											Cityville, ST 12345
+										</p>
+									</div>
 								</div>
 
 								<div>
-									<h3 className="text-lg font-medium text-dark">
-										Phone
+									<h3 className="text-lg font-medium text-dark mb-3">
+										Follow Us
 									</h3>
-									<p className="mt-2 text-neutral-600">
-										(555) 123-4567
-									</p>
-									<p className="mt-1 text-sm text-neutral-500">
-										For emergencies after hours, please call
-										(555) 987-6543
-									</p>
-								</div>
-
-								<div>
-									<h3 className="text-lg font-medium text-dark">
-										Address
-									</h3>
-									<p className="mt-2 text-neutral-600">
-										123 Sunshine Lane
-										<br />
-										Childcare City, ST 12345
-									</p>
-								</div>
-
-								<div>
-									<h3 className="text-lg font-medium text-dark">
-										Social Media
-									</h3>
-									<div className="mt-2 flex space-x-4">
+									<div className="flex space-x-4">
 										<a
 											href="#"
-											className="text-neutral-600 hover:text-primary"
+											className="h-10 w-10 rounded-full bg-neutral-100 flex items-center justify-center text-neutral-600 hover:bg-primary hover:text-white transition-colors"
 										>
 											<span className="sr-only">
 												Facebook
 											</span>
 											<svg
-												className="h-6 w-6"
+												className="h-5 w-5"
 												fill="currentColor"
 												viewBox="0 0 24 24"
 												aria-hidden="true"
@@ -215,13 +302,13 @@ export default function Contact() {
 										</a>
 										<a
 											href="#"
-											className="text-neutral-600 hover:text-primary"
+											className="h-10 w-10 rounded-full bg-neutral-100 flex items-center justify-center text-neutral-600 hover:bg-primary hover:text-white transition-colors"
 										>
 											<span className="sr-only">
 												Instagram
 											</span>
 											<svg
-												className="h-6 w-6"
+												className="h-5 w-5"
 												fill="currentColor"
 												viewBox="0 0 24 24"
 												aria-hidden="true"
@@ -233,6 +320,22 @@ export default function Contact() {
 												/>
 											</svg>
 										</a>
+										<a
+											href="#"
+											className="h-10 w-10 rounded-full bg-neutral-100 flex items-center justify-center text-neutral-600 hover:bg-primary hover:text-white transition-colors"
+										>
+											<span className="sr-only">
+												Twitter
+											</span>
+											<svg
+												className="h-5 w-5"
+												fill="currentColor"
+												viewBox="0 0 24 24"
+												aria-hidden="true"
+											>
+												<path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+											</svg>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -241,25 +344,41 @@ export default function Contact() {
 						{/* Contact Form */}
 						<div className="lg:col-span-2">
 							<h2 className="text-2xl font-bold text-dark mb-6">
-								Enrollment Inquiry
+								Send Us a Message
 							</h2>
 
 							{formStatus === "success" && (
-								<div className="mb-6 p-4 bg-green-100 text-green-700 rounded-md">
-									Thank you for your inquiry! We'll get back
-									to you as soon as possible to discuss
-									enrollment options.
+								<div className="mb-6 p-4 bg-green-50 border border-green-200 text-green-700 rounded-lg flex items-center">
+									<svg
+										className="h-5 w-5 mr-2 text-green-500"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth={2}
+											d="M5 13l4 4L19 7"
+										/>
+									</svg>
+									Thank you for your message! We'll get back
+									to you as soon as possible.
 								</div>
 							)}
 
-							<form onSubmit={handleSubmit} className="space-y-6">
+							<form
+								onSubmit={handleSubmit}
+								className="space-y-6 bg-neutral-50 p-8 rounded-xl border border-neutral-200"
+							>
 								<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 									<div>
 										<label
 											htmlFor="name"
 											className="block text-sm font-medium text-neutral-700"
 										>
-											Parent/Guardian Name
+											Your Name
 										</label>
 										<input
 											type="text"
@@ -268,7 +387,7 @@ export default function Contact() {
 											value={formData.name}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										/>
 									</div>
 
@@ -286,7 +405,7 @@ export default function Contact() {
 											value={formData.email}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										/>
 									</div>
 								</div>
@@ -297,7 +416,7 @@ export default function Contact() {
 											htmlFor="phone"
 											className="block text-sm font-medium text-neutral-700"
 										>
-											Phone
+											Phone (Optional)
 										</label>
 										<input
 											type="tel"
@@ -305,8 +424,7 @@ export default function Contact() {
 											name="phone"
 											value={formData.phone}
 											onChange={handleChange}
-											required
-											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										/>
 									</div>
 
@@ -315,7 +433,7 @@ export default function Contact() {
 											htmlFor="subject"
 											className="block text-sm font-medium text-neutral-700"
 										>
-											Child's Age
+											Subject
 										</label>
 										<select
 											id="subject"
@@ -323,26 +441,24 @@ export default function Contact() {
 											value={formData.subject}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
 										>
 											<option value="">
-												Select age range
+												Select a subject
 											</option>
-											<option value="Infant (0-12 months)">
-												Infant (0-12 months)
+											<option value="General Inquiry">
+												General Inquiry
 											</option>
-											<option value="Toddler (1-2 years)">
-												Toddler (1-2 years)
+											<option value="Support">
+												Support
 											</option>
-											<option value="Preschool (3-4 years)">
-												Preschool (3-4 years)
+											<option value="Partnership">
+												Partnership
 											</option>
-											<option value="Pre-K (4-5 years)">
-												Pre-K (4-5 years)
+											<option value="Feedback">
+												Feedback
 											</option>
-											<option value="School Age (6+ years)">
-												School Age (6+ years)
-											</option>
+											<option value="Other">Other</option>
 										</select>
 									</div>
 								</div>
@@ -352,8 +468,7 @@ export default function Contact() {
 										htmlFor="message"
 										className="block text-sm font-medium text-neutral-700"
 									>
-										Additional Information (preferred
-										schedule, start date, etc.)
+										Message
 									</label>
 									<textarea
 										id="message"
@@ -362,16 +477,17 @@ export default function Contact() {
 										value={formData.message}
 										onChange={handleChange}
 										required
-										className="mt-1 block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+										className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+										placeholder="How can we help you today?"
 									></textarea>
 								</div>
 
 								<div>
 									<button
 										type="submit"
-										className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+										className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-lg text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors"
 									>
-										Submit Inquiry
+										Send Message
 									</button>
 								</div>
 							</form>
@@ -380,44 +496,49 @@ export default function Contact() {
 				</div>
 			</div>
 
-			{/* Map Section */}
-			<div className="bg-neutral-200 py-16 sm:py-24">
-				<div className="container-custom">
-					<h2 className="text-2xl font-bold text-dark mb-6">
-						Our Location
-					</h2>
-					<div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-lg">
-						{/* Replace with actual map embed or image */}
-						<div className="bg-neutral-300 w-full h-96 flex items-center justify-center">
-							<p className="text-neutral-600 text-lg">
-								Map will be displayed here
-							</p>
-							{/* You would typically add a Google Maps or other map provider iframe here */}
+			{/* Map or CTA Section */}
+			<div className="py-16 bg-primary bg-opacity-5">
+				<div className="container-custom px-0 sm:px-6 lg:px-8">
+					<div className="max-w-4xl mx-auto text-center">
+						<h2 className="text-3xl font-bold text-dark mb-6">
+							We'd Love to Hear From You
+						</h2>
+						<p className="text-lg text-neutral-600 mb-8">
+							Whether you have a question about our services,
+							pricing, or anything else, our team is ready to
+							answer all your questions.
+						</p>
+						<div className="aspect-video rounded-xl overflow-hidden shadow-lg">
+							{/* Replace with your Google Maps embed or other map service */}
+							<div className="w-full h-full bg-neutral-200 flex items-center justify-center">
+								<p className="text-neutral-500">
+									Interactive map would be displayed here
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			{/* FAQ Section */}
-			<div className="py-16 sm:py-24">
-				<div className="container-custom">
+			<div className="py-16 sm:py-24 bg-white">
+				<div className="container-custom px-0 sm:px-6 lg:px-8">
 					<h2 className="text-3xl font-bold text-dark mb-12 text-center">
 						Frequently Asked Questions
 					</h2>
 
 					<div className="max-w-3xl mx-auto space-y-8">
-						<div>
+						<div className="bg-neutral-50 p-6 rounded-xl border border-neutral-200 hover:shadow-md transition-shadow">
 							<h3 className="text-xl font-semibold text-dark">
-								Are your courses accepted for California ECE
-								permits?
+								Are your services available internationally?
 							</h3>
 							<p className="mt-2 text-neutral-600">
-								Yes. Our college-credit courses through Gordon
-								College meet California ECE permit requirements.
+								Yes. We offer our services globally with support
+								in multiple languages and time zones.
 							</p>
 						</div>
 
-						<div>
+						<div className="bg-neutral-50 p-6 rounded-xl border border-neutral-200 hover:shadow-md transition-shadow">
 							<h3 className="text-xl font-semibold text-dark">
 								Do you offer bilingual services?
 							</h3>
@@ -427,37 +548,35 @@ export default function Contact() {
 							</p>
 						</div>
 
-						<div>
+						<div className="bg-neutral-50 p-6 rounded-xl border border-neutral-200 hover:shadow-md transition-shadow">
 							<h3 className="text-xl font-semibold text-dark">
-								Can you support teenagers and older students?
+								Is there a trial period for your services?
 							</h3>
 							<p className="mt-2 text-neutral-600">
-								Yes. We offer academic coaching, behavior
-								support, and college prep guidance for
-								adolescents and teens.
+								Yes. We offer a 30-day satisfaction guarantee
+								with all of our premium services.
 							</p>
 						</div>
 
-						<div>
+						<div className="bg-neutral-50 p-6 rounded-xl border border-neutral-200 hover:shadow-md transition-shadow">
 							<h3 className="text-xl font-semibold text-dark">
-								Do you support preschools and institutions in
-								China?
+								Do you offer corporate solutions?
 							</h3>
 							<p className="mt-2 text-neutral-600">
-								Absolutely. We provide school design, curriculum
-								consulting, accreditation training, and
-								IPO-readiness support.
+								Absolutely. We provide custom corporate
+								solutions and enterprise packages for businesses
+								of all sizes.
 							</p>
 						</div>
 
-						<div>
+						<div className="bg-neutral-50 p-6 rounded-xl border border-neutral-200 hover:shadow-md transition-shadow">
 							<h3 className="text-xl font-semibold text-dark">
-								Do you offer scholarships or payment plans?
+								Do you offer flexible payment options?
 							</h3>
 							<p className="mt-2 text-neutral-600">
-								Yes. We offer sliding scale pricing, flexible
-								packages, and group rates to increase
-								accessibility.
+								Yes. We offer various payment methods, flexible
+								packages, and subscription options to meet your
+								needs.
 							</p>
 						</div>
 					</div>
