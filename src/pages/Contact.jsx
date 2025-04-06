@@ -231,10 +231,6 @@ export default function Contact() {
 										<p className="mt-2 text-neutral-600">
 											(555) 123-4567
 										</p>
-										<p className="mt-1 text-sm text-neutral-500">
-											For urgent matters, please call
-											(555) 987-6543
-										</p>
 									</div>
 								</div>
 
@@ -267,8 +263,6 @@ export default function Contact() {
 										</h3>
 										<p className="mt-2 text-neutral-600">
 											123 Horizon Avenue
-											<br />
-											Suite 101
 											<br />
 											Cityville, ST 12345
 										</p>
@@ -387,7 +381,7 @@ export default function Contact() {
 											value={formData.name}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm px-4 py-3"
 										/>
 									</div>
 
@@ -405,7 +399,7 @@ export default function Contact() {
 											value={formData.email}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm px-4 py-3"
 										/>
 									</div>
 								</div>
@@ -424,7 +418,7 @@ export default function Contact() {
 											name="phone"
 											value={formData.phone}
 											onChange={handleChange}
-											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm px-4 py-3"
 										/>
 									</div>
 
@@ -441,7 +435,7 @@ export default function Contact() {
 											value={formData.subject}
 											onChange={handleChange}
 											required
-											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+											className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm px-4 py-3"
 										>
 											<option value="">
 												Select a subject
@@ -477,7 +471,7 @@ export default function Contact() {
 										value={formData.message}
 										onChange={handleChange}
 										required
-										className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+										className="mt-1 block w-full rounded-lg border-neutral-300 shadow-sm focus:border-primary focus:ring-primary sm:text-sm px-4 py-3"
 										placeholder="How can we help you today?"
 									></textarea>
 								</div>
@@ -491,30 +485,6 @@ export default function Contact() {
 									</button>
 								</div>
 							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			{/* Map or CTA Section */}
-			<div className="py-16 bg-primary bg-opacity-5">
-				<div className="container-custom px-0 sm:px-6 lg:px-8">
-					<div className="max-w-4xl mx-auto text-center">
-						<h2 className="text-3xl font-bold text-dark mb-6">
-							We'd Love to Hear From You
-						</h2>
-						<p className="text-lg text-neutral-600 mb-8">
-							Whether you have a question about our services,
-							pricing, or anything else, our team is ready to
-							answer all your questions.
-						</p>
-						<div className="aspect-video rounded-xl overflow-hidden shadow-lg">
-							{/* Replace with your Google Maps embed or other map service */}
-							<div className="w-full h-full bg-neutral-200 flex items-center justify-center">
-								<p className="text-neutral-500">
-									Interactive map would be displayed here
-								</p>
-							</div>
 						</div>
 					</div>
 				</div>
