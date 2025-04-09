@@ -6,6 +6,7 @@ import {Fragment} from "react";
 
 const navigation = [
 	{name: "About", href: "/about", current: false},
+	{name: "Our Team", href: "/team", current: false},
 	{
 		name: "Service",
 		href: "#",

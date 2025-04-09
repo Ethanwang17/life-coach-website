@@ -7,6 +7,7 @@ import NAEYC from "./pages/NAEYC";
 import Contact from "./pages/Contact";
 import Professional from "./pages/Professional";
 import Family from "./pages/Family";
+import Team from "./pages/Team";
 
 // Import CSS
 import "./App.css";
@@ -18,6 +19,7 @@ function App() {
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
 					<Route path="about" element={<About />} />
+					<Route path="team" element={<Team />} />
 					{/* Placeholder routes for other pages */}
 					<Route
 						path="service/professional"

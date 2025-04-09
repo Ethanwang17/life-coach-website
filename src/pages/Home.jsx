@@ -19,18 +19,25 @@ export default function Home() {
 						<div className="container-custom pt-10 sm:pt-16 lg:pt-8 lg:pb-14">
 							<div className="sm:text-center lg:text-left">
 								<h1 className="text-4xl tracking-tight font-extrabold text-dark sm:text-5xl md:text-6xl">
-									<span className="block">
-										Empowering Early
+									<span
+										className="block text-primary"
+										style={{
+											color: "#2E3A3A",
+											paddingBottom: "10px",
+										}}
+									>
+										Empowering Families
 									</span>
 									<span className="block text-primary">
-										Childhood Education
+										Through Faith-Based Guidance
 									</span>
 								</h1>
 								<p className="mt-3 text-base text-neutral-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-									New Horizons Life provides resources,
-									training, and support for ECE directors,
-									teachers, and families to create nurturing
-									learning environments.
+									Dr. Nili Luo provides personalized parenting
+									and family coaching to help you raise
+									thriving, whole children through
+									Christ-centered guidance and evidence-based
+									practices.
 								</p>
 								<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 									<div className="rounded-md shadow">
@@ -57,8 +64,8 @@ export default function Home() {
 				<div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 					<img
 						className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-						src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
-						alt="Early childhood education classroom"
+						src="https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+						alt="Happy family spending time together"
 					/>
 				</div>
 			</div>
@@ -68,14 +75,15 @@ export default function Home() {
 				<div className="container-custom">
 					<div className="lg:text-center">
 						<h2 className="text-base text-primary font-semibold tracking-wide uppercase">
-							Features
+							Services
 						</h2>
 						<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-dark sm:text-4xl">
-							Comprehensive Resources for ECE Professionals
+							Comprehensive Support for Families
 						</p>
 						<p className="mt-4 max-w-2xl text-xl text-neutral-500 lg:mx-auto">
-							Everything you need to excel in early childhood
-							education, all in one place.
+							Dr. Nili Luo offers personalized coaching and
+							resources to help you navigate the challenges of
+							parenting with confidence.
 						</p>
 					</div>
 
@@ -102,12 +110,13 @@ export default function Home() {
 								</div>
 								<div className="ml-4">
 									<h3 className="text-lg leading-6 font-medium text-dark">
-										Exclusive Content
+										Personalized Parenting Coaching
 									</h3>
 									<p className="mt-2 text-base text-neutral-500">
-										Access webinars, toolkits, and community
-										discussions designed for early childhood
-										professionals.
+										Receive tailored guidance to address
+										your specific family challenges and
+										build stronger parent-child
+										relationships.
 									</p>
 								</div>
 							</div>
@@ -133,12 +142,12 @@ export default function Home() {
 								</div>
 								<div className="ml-4">
 									<h3 className="text-lg leading-6 font-medium text-dark">
-										Resource Library
+										Faith-Based Resources
 									</h3>
 									<p className="mt-2 text-base text-neutral-500">
-										Downloadable materials for lesson
-										planning, classroom management, and
-										professional development.
+										Access Christ-centered materials that
+										integrate biblical principles with child
+										development expertise.
 									</p>
 								</div>
 							</div>
@@ -164,12 +173,12 @@ export default function Home() {
 								</div>
 								<div className="ml-4">
 									<h3 className="text-lg leading-6 font-medium text-dark">
-										Community Forum
+										Family Workshops
 									</h3>
 									<p className="mt-2 text-base text-neutral-500">
-										Connect with peers, share experiences,
-										and get answers to your questions from
-										other educators.
+										Participate in interactive sessions
+										designed to strengthen family bonds and
+										develop effective parenting skills.
 									</p>
 								</div>
 							</div>
@@ -195,12 +204,13 @@ export default function Home() {
 								</div>
 								<div className="ml-4">
 									<h3 className="text-lg leading-6 font-medium text-dark">
-										Professional Development
+										Educator Support
 									</h3>
 									<p className="mt-2 text-base text-neutral-500">
-										Enhance your skills and stay updated
-										with the latest trends and best
-										practices in early childhood education.
+										Early childhood educators can also
+										benefit from our professional
+										development opportunities and classroom
+										resources.
 									</p>
 								</div>
 							</div>
@@ -209,291 +219,242 @@ export default function Home() {
 				</div>
 			</div>
 
-			{/* For Audience Sections */}
+			{/* About Section */}
+			<div className="bg-neutral-200 py-16">
+				<div className="container-custom">
+					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+						<div>
+							<img
+								src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80"
+								alt="Dr. Nili Luo"
+								className="rounded-lg shadow-lg"
+							/>
+						</div>
+						<div>
+							<h2 className="text-3xl font-bold tracking-tight text-dark sm:text-4xl">
+								Meet Dr. Nili Luo
+							</h2>
+							<p className="mt-4 text-lg text-neutral-600">
+								With over 30 years of experience as a
+								parenting/family coach and early childhood
+								expert, Dr. Nili Luo is passionate about helping
+								families raise thriving, whole children through
+								personalized coaching and Christ-centered
+								guidance.
+							</p>
+							<p className="mt-4 text-lg text-neutral-600">
+								As the founder of New Horizons Life, she
+								combines her expertise in child development with
+								a deep understanding of family dynamics to
+								provide holistic support that makes parents feel
+								confident, connected, and supported in their
+								parenting journey.
+							</p>
+							<div className="mt-8">
+								<Link
+									to="/about"
+									className="text-primary font-medium hover:underline"
+								>
+									Learn more about Dr. Nili Luo{" "}
+									<span aria-hidden="true">→</span>
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Testimonials section */}
 			<div className="bg-neutral-100 py-16">
 				<div className="container-custom">
-					<div className="text-center">
-						<h2 className="text-3xl font-extrabold text-dark sm:text-4xl">
-							Our Professional Services
+					<div className="lg:text-center mb-12">
+						<h2 className="text-3xl font-bold tracking-tight text-dark sm:text-4xl">
+							What Families Are Saying
 						</h2>
-						<p className="mt-4 text-lg text-neutral-500">
-							Specialized support to meet the diverse needs of
-							early childhood education.
+						<p className="mt-4 max-w-2xl text-lg text-neutral-500 lg:mx-auto">
+							Hear from parents who have transformed their family
+							dynamics through our coaching.
 						</p>
 					</div>
-
-					<div className="mt-12 space-y-8 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
-						{/* Professional Development */}
-						<div className="relative p-8 bg-neutral-100 border border-neutral-200 rounded-2xl shadow-sm flex flex-col">
-							<div className="flex-1">
-								<h3 className="text-xl font-semibold text-dark">
-									Professional Development
-								</h3>
-								<p className="mt-4 text-neutral-500">
-									Comprehensive training programs and
-									resources to enhance skills for ECE
-									professionals.
-								</p>
-								<ul className="mt-6 space-y-3">
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Leadership workshops</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Certification programs</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Continuing education</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Mentorship opportunities</span>
-									</li>
-								</ul>
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<div className="bg-white p-8 rounded-lg shadow-sm border border-neutral-200">
+							<div className="flex items-center mb-4">
+								<div className="text-yellow-400 flex">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+								</div>
 							</div>
-							<Link
-								to="/service/professional"
-								className="mt-8 block w-full bg-neutral-200 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-neutral-300"
-							>
-								Learn More
-							</Link>
-						</div>
-
-						{/* Behavior Management */}
-						<div className="relative p-8 bg-neutral-100 border border-neutral-200 rounded-2xl shadow-sm flex flex-col">
-							<div className="flex-1">
-								<h3 className="text-xl font-semibold text-dark">
-									Behavior Management
-								</h3>
-								<p className="mt-4 text-neutral-500">
-									Evidence-based strategies for creating
-									positive learning environments and managing
-									challenging behaviors.
-								</p>
-								<ul className="mt-6 space-y-3">
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>
-											Classroom management techniques
-										</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>
-											Positive discipline strategies
-										</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>
-											Social-emotional development
-										</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Conflict resolution skills</span>
-									</li>
-								</ul>
-							</div>
-							<Link
-								to="/service/behavior"
-								className="mt-8 block w-full bg-neutral-200 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-neutral-300"
-							>
-								Learn More
-							</Link>
-						</div>
-
-						{/* NAEYC Accreditation */}
-						<div className="relative p-8 bg-neutral-100 border border-neutral-200 rounded-2xl shadow-sm flex flex-col">
-							<div className="flex-1">
-								<h3 className="text-xl font-semibold text-dark">
-									NAEYC Accreditation Support
-								</h3>
-								<p className="mt-4 text-neutral-500">
-									Guidance and resources to help programs
-									achieve and maintain NAEYC accreditation.
-								</p>
-								<ul className="mt-6 space-y-3">
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Standards compliance</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Documentation assistance</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>
-											Quality improvement planning
-										</span>
-									</li>
-									<li className="flex">
-										<span className="text-primary mr-2">
-											✓
-										</span>
-										<span>Site visit preparation</span>
-									</li>
-								</ul>
-							</div>
-							<Link
-								to="/service/naeyc"
-								className="mt-8 block w-full bg-neutral-200 rounded-md py-2 text-sm font-semibold text-primary text-center hover:bg-neutral-300"
-							>
-								Learn More
-							</Link>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			{/* Strategic Partnerships Section */}
-			<div className="bg-neutral-100 py-16">
-				<div className="container-custom">
-					<div className="text-center mb-12">
-						<h2 className="text-3xl font-extrabold text-dark sm:text-4xl">
-							Strategic Partnerships
-						</h2>
-						<p className="mt-4 text-lg text-neutral-500">
-							Collaborating with leading organizations to advance
-							early childhood education.
-						</p>
-					</div>
-
-					<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-						{/* Partnership Card 1 */}
-						<div className="bg-white p-6 rounded-lg shadow-md border border-neutral-200 flex items-start">
-							<div className="flex-shrink-0 bg-primary rounded-md p-3 mr-4">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									className="h-6 w-6 text-white"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-									/>
-								</svg>
-							</div>
+							<p className="text-neutral-600 italic mb-4">
+								"Dr. Nili's guidance transformed our family
+								dynamics. Her Christ-centered approach helped us
+								address behavioral issues with our toddler while
+								strengthening our faith as parents."
+							</p>
 							<div>
-								<h3 className="text-lg font-semibold text-dark">
-									Gordon College
-								</h3>
-								<p className="mt-2 text-neutral-500">
-									Certified online ECE college-credit courses
+								<p className="font-semibold text-dark">
+									Sarah Johnson
+								</p>
+								<p className="text-sm text-neutral-500">
+									Mother of two
 								</p>
 							</div>
 						</div>
-
-						{/* Partnership Card 2 */}
-						<div className="bg-white p-6 rounded-lg shadow-md border border-neutral-200 flex items-start">
-							<div className="flex-shrink-0 bg-secondary rounded-md p-3 mr-4">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									className="h-6 w-6 text-white"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-									/>
-								</svg>
+						<div className="bg-white p-8 rounded-lg shadow-sm border border-neutral-200">
+							<div className="flex items-center mb-4">
+								<div className="text-yellow-400 flex">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+								</div>
 							</div>
+							<p className="text-neutral-600 italic mb-4">
+								"As a single dad, I was struggling with
+								parenting. Dr. Luo's coaching gave me practical
+								tools and the spiritual foundation to build a
+								nurturing home for my children."
+							</p>
 							<div>
-								<h3 className="text-lg font-semibold text-dark">
-									Footsteps Childcare, ICRI-Stanford
-								</h3>
-								<p className="mt-2 text-neutral-500">
-									Three U.S.-based collaborative sites
+								<p className="font-semibold text-dark">
+									Michael Thomas
+								</p>
+								<p className="text-sm text-neutral-500">
+									Father of three
 								</p>
 							</div>
 						</div>
-
-						{/* Partnership Card 3 */}
-						<div className="bg-white p-6 rounded-lg shadow-md border border-neutral-200 flex items-start">
-							<div className="flex-shrink-0 bg-accent rounded-md p-3 mr-4">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									className="h-6 w-6 text-white"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h.5A2.5 2.5 0 0020 5.5v-1.65"
-									/>
-								</svg>
+						<div className="bg-white p-8 rounded-lg shadow-sm border border-neutral-200">
+							<div className="flex items-center mb-4">
+								<div className="text-yellow-400 flex">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										className="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+									</svg>
+								</div>
 							</div>
+							<p className="text-neutral-600 italic mb-4">
+								"I'm both a parent and an early childhood
+								educator. Dr. Nili's resources have been
+								invaluable in both roles, helping me create
+								nurturing environments at home and in my
+								classroom."
+							</p>
 							<div>
-								<h3 className="text-lg font-semibold text-dark">
-									Soong Ching Ling Foundation
-								</h3>
-								<p className="mt-2 text-neutral-500">
-									Cross-cultural initiative partner
+								<p className="font-semibold text-dark">
+									Jennifer Martinez
 								</p>
-							</div>
-						</div>
-
-						{/* Partnership Card 4 */}
-						<div className="bg-white p-6 rounded-lg shadow-md border border-neutral-200 flex items-start">
-							<div className="flex-shrink-0 bg-blue-500 rounded-md p-3 mr-4">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									className="h-6 w-6 text-white"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-									/>
-								</svg>
-							</div>
-							<div>
-								<h3 className="text-lg font-semibold text-dark">
-									NAEYC Global Office
-								</h3>
-								<p className="mt-2 text-neutral-500">
-									Accreditation and curriculum consulting
-									partner
+								<p className="text-sm text-neutral-500">
+									Parent and preschool teacher
 								</p>
 							</div>
 						</div>
@@ -501,175 +462,42 @@ export default function Home() {
 				</div>
 			</div>
 
-			{/* Testimonials Section */}
-			<div className="py-16 bg-neutral-100">
-				<div className="container-custom">
-					<h2 className="text-3xl font-extrabold text-center text-dark sm:text-4xl mb-12">
-						Testimonials and Success Stories
-					</h2>
-					<div className="grid md:grid-cols-3 gap-8">
-						<div className="bg-white rounded-lg shadow-md p-8">
-							<div className="flex items-center mb-4">
-								<div className="text-yellow-400 flex">
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-								</div>
-							</div>
-							<p className="text-gray-700 italic mb-4">
-								"Dr. Luo and her team helped my child gain
-								confidence and earn admission to their dream
-								college. They cared for us like family."
-							</p>
-							<p className="font-medium text-gray-900">
-								- S.L., Parent, San Francisco
-							</p>
-						</div>
-						<div className="bg-white rounded-lg shadow-md p-8">
-							<div className="flex items-center mb-4">
-								<div className="text-yellow-400 flex">
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-								</div>
-							</div>
-							<p className="text-gray-700 italic mb-4">
-								"Thanks to ABC Education, our preschool reached
-								NAEYC standards and built a bridge to meaningful
-								U.S. partnerships."
-							</p>
-							<p className="font-medium text-gray-900">
-								- Director J.W., Shanghai
-							</p>
-						</div>
-						<div className="bg-white rounded-lg shadow-md p-8">
-							<div className="flex items-center mb-4">
-								<div className="text-yellow-400 flex">
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-									<svg
-										className="w-5 h-5 fill-current"
-										viewBox="0 0 24 24"
-									>
-										<path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-									</svg>
-								</div>
-							</div>
-							<p className="text-gray-700 italic mb-4">
-								"I never imagined becoming a national award
-								recipient. ABC Education changed my life and
-								helped me find my calling."
-							</p>
-							<p className="font-medium text-gray-900">
-								- Y.Z., Award-Winning Teacher
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			{/* Call to Action */}
+			{/* CTA section */}
 			<div className="bg-primary">
-				<div className="container-custom py-12 md:py-16">
-					<h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
-						Ready to enhance your ECE program?
-					</h2>
-					<p className="mt-4 text-lg leading-6 text-blue-100">
-						Join the New Horizons Life community today and get
-						access to all our resources.
-					</p>
-					<div className="mt-8 flex">
-						{/* <div className="inline-flex rounded-md shadow">
-							<Link
-								to="/contact"
-								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-neutral-100 hover:bg-neutral-200"
-							>
-								Contact Us
-							</Link>
-						</div> */}
-						<div className="inline-flex">
-							<Link
-								to="/contact"
-								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-secondary hover:bg-secondary/90"
-							>
-								Get in Touch
-							</Link>
+				<div className="container-custom py-16">
+					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+						<div>
+							<h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+								Ready to transform your parenting journey?
+							</h2>
+							<p className="mt-4 text-lg text-blue-100">
+								Connect with Dr. Nili Luo for personalized
+								coaching that integrates faith-based principles
+								with evidence-based practices. Take the first
+								step toward confident, connected parenting
+								today.
+							</p>
+							<div className="mt-8 flex flex-col sm:flex-row gap-4">
+								<Link
+									to="/contact"
+									className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-blue-50"
+								>
+									Schedule a Consultation
+								</Link>
+								<Link
+									to="/about"
+									className="inline-flex items-center justify-center px-5 py-3 border border-white text-base font-medium rounded-md text-white hover:bg-primary-dark"
+								>
+									Learn More
+								</Link>
+							</div>
+						</div>
+						<div className="hidden lg:block">
+							<img
+								src="https://images.unsplash.com/photo-1491013516836-7db643ee125a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+								alt="Happy family"
+								className="rounded-lg shadow-lg"
+							/>
 						</div>
 					</div>
 				</div>
