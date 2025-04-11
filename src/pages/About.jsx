@@ -25,9 +25,9 @@ export default function About() {
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 						<div>
 							<img
-								src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80"
+								src="./images/NiLi Presentation.JPG"
 								alt="Dr. Nili Luo"
-								className="rounded-lg shadow-lg"
+								className="rounded-lg shadow-lg aspect-[4/3] object-cover"
 							/>
 						</div>
 						<div>
