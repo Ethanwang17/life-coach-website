@@ -4,7 +4,7 @@ export default function About() {
 	return (
 		<div className="bg-neutral-100">
 			{/* Hero section */}
-			<div className="bg-neutral-200 py-24 sm:py-32">
+			<div className="bg-neutral-200 py-16 sm:py-24">
 				<div className="container-custom">
 					<div className="max-w-2xl">
 						<h2 className="text-4xl font-bold tracking-tight text-dark sm:text-6xl">
@@ -66,7 +66,7 @@ export default function About() {
 			</div>
 
 			{/* Mission section */}
-			<div className="bg-neutral-200 py-16 sm:py-24">
+			<div className="py-16 sm:py-24">
 				<div className="container-custom">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 						<div>
@@ -97,7 +97,7 @@ export default function About() {
 						</div>
 						<div className="order-first lg:order-last">
 							<img
-								src="https://images.unsplash.com/photo-1617870122913-bcb9ab0d21e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+								src="./images/Kids Playing.jpg"
 								alt="Children playing and learning"
 								className="rounded-lg shadow-lg"
 							/>
@@ -110,7 +110,7 @@ export default function About() {
 			<div className="py-16 sm:py-24">
 				<div className="container-custom">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-						<div className="order-first lg:order-last">
+						<div>
 							<img
 								src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
 								alt="Business history timeline"
@@ -143,7 +143,7 @@ export default function About() {
 			</div>
 
 			{/* Milestones & Impact Highlights Timeline section */}
-			<div className="py-16 sm:py-24 bg-neutral-200">
+			<div className="py-16 sm:py-24">
 				<div className="container-custom">
 					<div className="max-w-4xl mx-auto">
 						<div className="text-center mb-16">

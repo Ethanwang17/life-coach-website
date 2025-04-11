@@ -64,7 +64,7 @@ export default function Home() {
 				<div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 					<img
 						className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-						src="https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+						src="./images/Asian Family.jpg"
 						alt="Happy family spending time together"
 					/>
 				</div>
@@ -494,9 +494,9 @@ export default function Home() {
 						</div>
 						<div className="hidden lg:block">
 							<img
-								src="https://images.unsplash.com/photo-1491013516836-7db643ee125a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+								src="./images/Asian Child.jpg"
 								alt="Happy family"
-								className="rounded-lg shadow-lg"
+								className="rounded-lg shadow-lg aspect-square object-cover"
 							/>
 						</div>
 					</div>

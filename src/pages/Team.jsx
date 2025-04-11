@@ -30,7 +30,7 @@ export default function Team() {
 							and educators.
 						</p>
 					</div>
-					<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+					<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
 						<div className="flex flex-col items-center">
 							<img
 								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
@@ -74,6 +74,20 @@ export default function Team() {
 							<p className="mt-4 text-base leading-7 text-neutral-600 text-center max-w-xs">
 								Renowned child psychiatrist and global public
 								health advocate
+							</p>
+						</div>
+						<div className="flex flex-col items-center">
+							<img
+								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
+								src="./images/Kevin-nugent-headshot.jpg"
+								alt="Team member"
+							/>
+							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
+								Kevin Nugent
+							</h3>
+							<p className="mt-4 text-base leading-7 text-neutral-600 text-center max-w-xs">
+								Leading developmental psychologist and founder
+								of the Brazelton Institute.
 							</p>
 						</div>
 					</div>
