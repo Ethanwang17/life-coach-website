@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://Ethanwang17.github.io/life-coach-website/",
+	"homepage": "https://myabcschool.com",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
