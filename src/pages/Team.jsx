@@ -38,7 +38,7 @@ export default function Team() {
 								alt="Team member"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
-								Dr. Kelly Hankat
+								Dr. Kelly Hantak
 							</h3>
 							<p className="mt-4 text-base leading-7 text-neutral-600 text-center max-w-xs">
 								Expert in ECE leadership, instructional systems,
@@ -83,7 +83,7 @@ export default function Team() {
 								alt="Team member"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
-								Kevin Nugent
+								Dr. Kevin Nugent
 							</h3>
 							<p className="mt-4 text-base leading-7 text-neutral-600 text-center max-w-xs">
 								Leading developmental psychologist and founder

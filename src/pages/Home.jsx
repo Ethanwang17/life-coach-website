@@ -29,15 +29,15 @@ export default function Home() {
 										Empowering Families
 									</span>
 									<span className="block text-primary">
-										Through Faith-Based Guidance
+										Through Research-Based Guidance
 									</span>
 								</h1>
 								<p className="mt-3 text-base text-neutral-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-									Dr. Nili Luo provides personalized parenting
-									and family coaching to help you raise
-									thriving, whole children through
-									Christ-centered guidance and evidence-based
-									practices.
+									Dr. Nili Luo offers personalized parenting
+									and family coaching grounded in
+									research-based practices, empowering you to
+									raise young children into lifelong learners,
+									responsible citizens, and future leaders.
 								</p>
 								<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 									<div className="rounded-md shadow">
@@ -142,7 +142,7 @@ export default function Home() {
 								</div>
 								<div className="ml-4">
 									<h3 className="text-lg leading-6 font-medium text-dark">
-										Faith-Based Resources
+										Research-Based Resources
 									</h3>
 									<p className="mt-2 text-base text-neutral-500">
 										Access Christ-centered materials that

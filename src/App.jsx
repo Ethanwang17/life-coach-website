@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Professional from "./pages/Professional";
 import Family from "./pages/Family";
 import Team from "./pages/Team";
+import Pricing from "./pages/Pricing";
 
 // Import CSS
 import "./App.css";
@@ -28,6 +29,7 @@ function App() {
 					<Route path="service/behavior" element={<Behavior />} />
 					<Route path="service/naeyc" element={<NAEYC />} />
 					<Route path="service/family" element={<Family />} />
+					<Route path="pricing" element={<Pricing />} />
 					<Route path="contact" element={<Contact />} />
 					<Route path="*" element={<NotFound />} />
 				</Route>

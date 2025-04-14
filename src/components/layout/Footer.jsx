@@ -4,6 +4,7 @@ const navigation = {
 	main: [
 		{name: "About", href: "/about"},
 		{name: "Service", href: "#"},
+		{name: "Pricing", href: "/pricing"},
 		{name: "Contact", href: "/contact"},
 	],
 	service: [

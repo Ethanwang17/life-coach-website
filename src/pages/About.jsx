@@ -36,7 +36,7 @@ export default function About() {
 							</h2>
 							<p className="mt-4 text-lg text-neutral-500">
 								Dr. Nili Luo is a parenting/family coach, early
-								childhood expert, and faith-based educator with
+								childhood expert, and research-based educator with
 								over 30 years of experience helping families and
 								teachers raise thriving, whole children. Through
 								personalized coaching and Christ-centered
