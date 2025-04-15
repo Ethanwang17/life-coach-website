@@ -202,12 +202,12 @@ export default function Contact() {
 											Email
 										</h3>
 										<p className="mt-2 text-neutral-600">
-											contact@newhorizonslife.com
+										llc_abc@yahoo.com
 										</p>
 									</div>
 								</div>
 
-								<div className="flex items-start">
+								{/* <div className="flex items-start">
 									<div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
 										<svg
 											className="h-5 w-5 text-primary"
@@ -231,7 +231,7 @@ export default function Contact() {
 										<p className="mt-2 text-neutral-600">
 											(555) 123-4567
 										</p>
-									</div>
+									</div> */}
 								</div>
 
 								<div className="flex items-start">
