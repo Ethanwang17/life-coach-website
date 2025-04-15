@@ -233,7 +233,7 @@ export default function Contact() {
 										</p>
 									</div>
 								</div> */}
-
+{/* 
 								<div className="flex items-start">
 									<div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
 										<svg
@@ -267,7 +267,7 @@ export default function Contact() {
 											Cityville, ST 12345
 										</p>
 									</div>
-								</div>
+								</div> */}
 
 								<div>
 									<h3 className="text-lg font-medium text-dark mb-3">
