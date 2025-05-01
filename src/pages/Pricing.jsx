@@ -102,6 +102,66 @@ export default function Pricing() {
 										$9,200
 									</td>
 								</tr>
+								<tr className="hover:bg-gray-50">
+									<td className="p-4 border-b border-gray-200">
+										The Parent Power Hour
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										• One 60-minute private session (via
+										Zoom or phone)
+										<br />
+										• Focused support for current parenting
+										challenges
+										<br />• Immediate action steps and
+										encouragement
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										One-time
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										$250
+									</td>
+								</tr>
+								<tr className="hover:bg-gray-50">
+									<td className="p-4 border-b border-gray-200">
+										The Best Gift Package
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										• Three one-on-one coaching sessions
+										<br />
+										• A personalized family support plan
+										<br />• Email access for follow-up
+										questions
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										Varies
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										$775
+									</td>
+								</tr>
+								<tr className="hover:bg-gray-50">
+									<td className="p-4 border-b border-gray-200">
+										The Family Transformation Journey
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										• Six weekly private coaching sessions
+										<br />
+										• A comprehensive family transformation
+										plan
+										<br />
+										• Weekly check-ins and priority
+										scheduling
+										<br />• Optional prayer and faith-based
+										support
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										6 Weeks
+									</td>
+									<td className="p-4 border-b border-gray-200">
+										$2,500
+									</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>

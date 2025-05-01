@@ -34,8 +34,8 @@ export default function Team() {
 						<div className="flex flex-col items-center">
 							<img
 								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
-								src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80"
-								alt="Team member"
+								src="./images/Kelly Hantak Headshot.PNG"
+								alt="Kelly Hantak"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
 								Dr. Kelly Hantak
@@ -49,7 +49,7 @@ export default function Team() {
 							<img
 								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
 								src="./images/mary-jo-pullman-headshot.jpg"
-								alt="Team member"
+								alt="Mary Jo Pullman"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
 								Dr. Mary Pollman
@@ -66,7 +66,7 @@ export default function Team() {
 							<img
 								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
 								src="./images/dr-Myron-Belfer-headshot.jpg"
-								alt="Team member"
+								alt="Dr. Myron Belfer"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
 								Dr. Myron Belfer, MD, M.P.A.
@@ -80,7 +80,7 @@ export default function Team() {
 							<img
 								className="aspect-[3/2] w-52 h-52 rounded-full object-cover"
 								src="./images/Kevin-nugent-headshot.jpg"
-								alt="Team member"
+								alt="Dr. Kevin Nugent"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
 								Dr. Kevin Nugent
