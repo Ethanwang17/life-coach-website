@@ -37,9 +37,6 @@ export default function Pricing() {
 									<th className="p-4 border-b-2 border-gray-200 font-semibold text-gray-700">
 										Duration
 									</th>
-									<th className="p-4 border-b-2 border-gray-200 font-semibold text-gray-700">
-										Price
-									</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -53,9 +50,6 @@ export default function Pricing() {
 									<td className="p-4 border-b border-gray-200">
 										One-time
 									</td>
-									<td className="p-4 border-b border-gray-200">
-										$1,000
-									</td>
 								</tr>
 								<tr className="hover:bg-gray-50">
 									<td className="p-4 border-b border-gray-200">
@@ -67,9 +61,6 @@ export default function Pricing() {
 									</td>
 									<td className="p-4 border-b border-gray-200">
 										3 Months
-									</td>
-									<td className="p-4 border-b border-gray-200">
-										$2,800
 									</td>
 								</tr>
 								<tr className="hover:bg-gray-50">
@@ -83,9 +74,6 @@ export default function Pricing() {
 									<td className="p-4 border-b border-gray-200">
 										6 Months
 									</td>
-									<td className="p-4 border-b border-gray-200">
-										$5,200
-									</td>
 								</tr>
 								<tr className="hover:bg-gray-50">
 									<td className="p-4 border-b border-gray-200">
@@ -97,9 +85,6 @@ export default function Pricing() {
 									</td>
 									<td className="p-4 border-b border-gray-200">
 										12 Months
-									</td>
-									<td className="p-4 border-b border-gray-200">
-										$9,200
 									</td>
 								</tr>
 								<tr className="hover:bg-gray-50">
@@ -118,9 +103,6 @@ export default function Pricing() {
 									<td className="p-4 border-b border-gray-200">
 										One-time
 									</td>
-									<td className="p-4 border-b border-gray-200">
-										$250
-									</td>
 								</tr>
 								<tr className="hover:bg-gray-50">
 									<td className="p-4 border-b border-gray-200">
@@ -135,9 +117,6 @@ export default function Pricing() {
 									</td>
 									<td className="p-4 border-b border-gray-200">
 										Varies
-									</td>
-									<td className="p-4 border-b border-gray-200">
-										$775
 									</td>
 								</tr>
 								<tr className="hover:bg-gray-50">
@@ -158,9 +137,6 @@ export default function Pricing() {
 									<td className="p-4 border-b border-gray-200">
 										6 Weeks
 									</td>
-									<td className="p-4 border-b border-gray-200">
-										$2,500
-									</td>
 								</tr>
 							</tbody>
 						</table>
@@ -169,7 +145,7 @@ export default function Pricing() {
 						<p className="font-semibold">Add-ons:</p>
 						<p>
 							Parent-child emotional education course / Parenting
-							class – $350
+							class
 						</p>
 					</div>
 				</div>

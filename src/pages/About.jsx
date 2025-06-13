@@ -188,7 +188,7 @@ export default function About() {
 												Academic Excellence
 											</h3>
 											<p className="text-neutral-600">
-												100% college admission rate for
+												95% college admission rate for
 												students supported through our
 												long-term academic and family
 												services
