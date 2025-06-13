@@ -69,7 +69,7 @@ export default function Team() {
 								alt="Dr. Myron Belfer"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
-								Dr. Myron Belfer, MD, M.P.A.
+								<a href="https://developingchild.harvard.edu/people/myron-belfe/" target="_blank" rel="noopener noreferrer">Dr. Myron Belfer, MD, M.P.A.</a>
 							</h3>
 							<p className="mt-4 text-base leading-7 text-neutral-600 text-center max-w-xs">
 								Renowned child psychiatrist and global public
@@ -83,7 +83,7 @@ export default function Team() {
 								alt="Dr. Kevin Nugent"
 							/>
 							<h3 className="mt-4 text-lg font-semibold leading-8 text-dark">
-								Dr. Kevin Nugent
+								<a href="https://drkevinnugent.com/" target="_blank" rel="noopener noreferrer">Dr. Kevin Nugent</a>
 							</h3>
 							<p className="mt-4 text-base leading-7 text-neutral-600 text-center max-w-xs">
 								Leading developmental psychologist and founder
