@@ -36,13 +36,13 @@ export default function About() {
 							</h2>
 							<p className="mt-4 text-lg text-neutral-500">
 								Dr. Nili Luo is a parenting/family coach, early
-								childhood expert, and research-based educator with
-								over 30 years of experience helping families and
-								teachers raise thriving, whole children. Through
-								personalized coaching and Christ-centered
-								guidance, she helps parents feel confident,
-								connected, and supported in their parenting
-								journey.
+								childhood expert, and research-based educator
+								with over 30 years of experience helping
+								families and teachers raise thriving, whole
+								children. Through personalized coaching and
+								Christ-centered guidance, she helps parents feel
+								confident, connected, and supported in their
+								parenting journey.
 							</p>
 							<p className="mt-4 text-lg text-neutral-500">
 								As the founder and lead parenting/family coach
@@ -207,9 +207,16 @@ export default function About() {
 											<p className="text-neutral-600">
 												One of our students became the
 												first preschool teacher in U.S.
-												to win the U.S. National Teacher
-												of the Year Award (2020) — a
-												historic and unprecedented
+												to win the
+												<a
+													href="https://ntoy.ccsso.org/tabatha-rosproy/"
+													target="_blank"
+													rel="noopener noreferrer"
+												>
+													U.S. National Teacher of the
+													Year Award (2020)
+												</a>{" "}
+												— a historic and unprecedented
 												achievement
 											</p>
 										</div>
